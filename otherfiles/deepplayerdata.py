@@ -156,9 +156,11 @@ def process_url(url: str) -> Dict[str, str]:
         player_data = extract_player_data(html)
         flat_data = flatten_player_data(player_data)
         flat_data['URL'] = url  # Add the URL to the data
+        player_name = flat_data.get('Basic Info_Player Name', 'Unknown Player')
+        logger.info(f"Data gathered for {player_name} - {len(flat_data)} data points")
         return flat_data
     except Exception as e:
-        logger.error(f"An error occurred while processing {url}: {e}", exc_info=True)
+        logger.error(f"An error occurred while processing {url}: {e}")
         return {}
 
 def main():
@@ -190,8 +192,9 @@ def main():
                 writer.writerow(player_data)
         
         logger.info(f"Player data successfully scraped and saved to {OUTPUT_CSV_FILE_PATH}")
+        logger.info(f"Total players processed: {len(all_player_data)}")
     except Exception as e:
-        logger.error(f"An error occurred: {e}", exc_info=True)
+        logger.error(f"An error occurred: {e}")
 
 if __name__ == "__main__":
     main()
