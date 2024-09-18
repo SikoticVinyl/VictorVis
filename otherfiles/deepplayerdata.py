@@ -3,14 +3,22 @@ from bs4 import BeautifulSoup
 import csv
 import logging
 from typing import Dict, Any, List
+import time
+import random
 
 # Set up logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 # Configuration
-PLAYER_URL = "https://www.hltv.org/stats/players/15165/blamef?startDate=all"
-CSV_OUTPUT_FILE_PATH = 'player_data.csv'
+INPUT_CSV_FILE_PATH = '../data/player_urls.csv'
+OUTPUT_CSV_FILE_PATH = '../data/deep_player_data.csv'
+
+def read_urls_from_csv(file_path: str) -> List[str]:
+    with open(file_path, 'r', newline='', encoding='utf-8') as csvfile:
+        reader = csv.reader(csvfile)
+        next(reader)  # Skip the header row
+        return [row[0] for row in reader if row]
 
 def fetch_page(url: str) -> str:
     headers = {
@@ -21,10 +29,22 @@ def fetch_page(url: str) -> str:
         'DNT': '1',
         'Connection': 'keep-alive',
         'Upgrade-Insecure-Requests': '1',
+        'Cache-Control': 'max-age=0',
     }
-    response = requests.get(url, headers=headers)
+    url_with_param = f"{url}?startDate=all"
+    
+    # Randomize the delay between requests (2 to 5 seconds)
+    time.sleep(random.uniform(2, 5))
+    
+    session = requests.Session()
+    
+    # First, visit the main page to set cookies
+    session.get("https://www.hltv.org/", headers=headers)
+    
+    # Then visit the actual player page
+    response = session.get(url_with_param, headers=headers)
     response.raise_for_status()
-    logger.debug(f"Page fetched successfully. Status code: {response.status_code}")
+    logger.debug(f"Page fetched successfully. URL: {url_with_param}, Status code: {response.status_code}")
     return response.text
 
 def extract_player_data(html: str) -> Dict[str, Any]:
@@ -33,7 +53,7 @@ def extract_player_data(html: str) -> Dict[str, Any]:
         'Basic Info': extract_basic_info(soup),
         'Summary Stats': extract_summary_stats(soup),
         'Detailed Stats': extract_detailed_stats(soup),
-        'Role Stats': extract_role_stats(soup)  # New addition
+        'Role Stats': extract_role_stats(soup)
     }
     logger.debug(f"Extracted player data: {player_data}")
     return player_data
@@ -86,7 +106,6 @@ def extract_detailed_stats(soup: BeautifulSoup) -> Dict[str, str]:
     logger.debug(f"Extracted detailed stats: {detailed_stats}")
     return detailed_stats
 
-# New function to extract role stats
 def extract_role_stats(soup: BeautifulSoup) -> Dict[str, Any]:
     role_stats = {}
     role_categories = ['firepower', 'entrying', 'trading', 'opening', 'clutching', 'sniping', 'utility']
@@ -131,22 +150,46 @@ def flatten_player_data(player_data: Dict[str, Any]) -> Dict[str, str]:
     logger.debug(f"Flattened player data: {flat_data}")
     return flat_data
 
-def main():
+def process_url(url: str) -> Dict[str, str]:
     try:
-        html = fetch_page(PLAYER_URL)
+        html = fetch_page(url)
         player_data = extract_player_data(html)
         flat_data = flatten_player_data(player_data)
+        flat_data['URL'] = url  # Add the URL to the data
+        return flat_data
+    except Exception as e:
+        logger.error(f"An error occurred while processing {url}: {e}", exc_info=True)
+        return {}
 
-        if not flat_data:
+def main():
+    try:
+        # Read URLs from the CSV file
+        player_urls = read_urls_from_csv(INPUT_CSV_FILE_PATH)
+        logger.info(f"Loaded {len(player_urls)} URLs from {INPUT_CSV_FILE_PATH}")
+
+        all_player_data = []
+
+        for url in player_urls:
+            player_data = process_url(url)
+            if player_data:
+                all_player_data.append(player_data)
+
+        if not all_player_data:
             logger.error("No data was extracted. The CSV file will be empty.")
             return
 
-        with open(CSV_OUTPUT_FILE_PATH, 'w', newline='', encoding='utf-8') as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=flat_data.keys())
+        # Get all unique keys from all player data
+        fieldnames = set()
+        for player_data in all_player_data:
+            fieldnames.update(player_data.keys())
+
+        with open(OUTPUT_CSV_FILE_PATH, 'w', newline='', encoding='utf-8') as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
-            writer.writerow(flat_data)
+            for player_data in all_player_data:
+                writer.writerow(player_data)
         
-        logger.info(f"Player data successfully scraped and saved to {CSV_OUTPUT_FILE_PATH}")
+        logger.info(f"Player data successfully scraped and saved to {OUTPUT_CSV_FILE_PATH}")
     except Exception as e:
         logger.error(f"An error occurred: {e}", exc_info=True)
 
