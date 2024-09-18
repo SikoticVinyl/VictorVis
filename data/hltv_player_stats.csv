@@ -1,0 +1,969 @@
+country,name,player_url,team,maps,rounds,kd_diff,kd,rating
+France,ZywOo,https://www.hltv.org/stats/players/11893/zywoo,Vitality,1334,34629,+8125,1.39,1.27
+Ukraine,s1mple,https://www.hltv.org/stats/players/7998/s1mple,Natus Vincere,1727,45750,+9669,1.33,1.24
+Russia,sh1ro,https://www.hltv.org/stats/players/16920/sh1ro,Gambit Youngsters,1187,31021,+7312,1.44,1.22
+Russia,donk,https://www.hltv.org/stats/players/21167/donk,Spirit,466,11556,+1967,1.25,1.22
+Russia,deko,https://www.hltv.org/stats/players/20113/deko,Aurora,927,23640,+4739,1.34,1.19
+Russia,m0NESY,https://www.hltv.org/stats/players/19230/m0nesy,G2,588,14743,+2768,1.32,1.19
+United Kingdom,smooya,https://www.hltv.org/stats/players/11271/smooya,Into the Breach,1114,28896,+4860,1.27,1.18
+Ukraine,w0nderful,https://www.hltv.org/stats/players/20127/w0nderful,Natus Vincere,539,13686,+2602,1.33,1.17
+Russia,degster,https://www.hltv.org/stats/players/17306/degster,Espada,887,23529,+4086,1.29,1.17
+New Zealand,nettik,https://www.hltv.org/stats/players/18214/nettik,Rooster,499,12181,+1864,1.24,1.17
+New Zealand,sterling,https://www.hltv.org/stats/players/12591/sterling,AVANT,967,24789,+4347,1.29,1.16
+Turkey,XANTARES,https://www.hltv.org/stats/players/7938/xantares,Eternal Fire,2171,56736,+7601,1.20,1.16
+Malaysia,kaze,https://www.hltv.org/stats/players/8950/kaze,Rare Atom,1147,29258,+4983,1.29,1.16
+Ukraine,SENSEi,https://www.hltv.org/stats/players/18227/sensei,CR4ZY,623,16671,+3187,1.35,1.16
+China,DANK1NG,https://www.hltv.org/stats/players/16207/dank1ng,TYLOO,457,12106,+1897,1.25,1.16
+Denmark,device,https://www.hltv.org/stats/players/7592/device,Astralis,2076,53670,+8286,1.25,1.16
+Denmark,blameF,https://www.hltv.org/stats/players/15165/blamef,Complexity,1243,32689,+5240,1.27,1.16
+Argentina,try,https://www.hltv.org/stats/players/19869/try,9z,551,14406,+2322,1.27,1.15
+Bosnia and Herzegovina,NiKo,https://www.hltv.org/stats/players/3741/niko,G2,1953,51166,+6481,1.19,1.15
+Romania,regali,https://www.hltv.org/stats/players/20123/regali,Copenhagen Flames,456,12302,+1822,1.24,1.15
+Singapore,Benkai,https://www.hltv.org/stats/players/8944/benkai,BOOT-d[S],603,15560,+2046,1.20,1.14
+Russia,ArtFr0st,https://www.hltv.org/stats/players/21348/artfr0st,PARIVISION,515,12667,+2209,1.32,1.14
+Indonesia,BnTeT,https://www.hltv.org/stats/players/7131/bntet,TYLOO,1129,29312,+3855,1.21,1.14
+China,JamYoung,https://www.hltv.org/stats/players/19645/jamyoung,TYLOO,638,16006,+2092,1.21,1.14
+Brazil,KSCERATO,https://www.hltv.org/stats/players/15631/kscerato,FURIA,1231,31360,+4705,1.26,1.14
+Hungary,torzsi,https://www.hltv.org/stats/players/18072/torzsi,MOUZ,792,20288,+2866,1.23,1.13
+Brazil,saffee,https://www.hltv.org/stats/players/18835/saffee,MIBR,776,19453,+2691,1.23,1.13
+Australia,Texta,https://www.hltv.org/stats/players/11847/texta,Chiefs,653,16324,+1784,1.16,1.13
+Ukraine,Woro2k,https://www.hltv.org/stats/players/16885/woro2k,Monte,902,23282,+3118,1.21,1.13
+Poland,mhL,https://www.hltv.org/stats/players/16847/mhl,AGO,853,22634,+2942,1.21,1.13
+Russia,Jame,https://www.hltv.org/stats/players/13776/jame,Virtus.pro,1530,39717,+6523,1.30,1.13
+Korea,XigN,https://www.hltv.org/stats/players/9172/xign,MVP PK,859,22116,+2514,1.17,1.12
+Slovakia,frozen,https://www.hltv.org/stats/players/9960/frozen,MOUZ,1551,39853,+4671,1.18,1.12
+Brazil,coldzera,https://www.hltv.org/stats/players/9216/coldzera,SK,1810,46558,+6053,1.21,1.12
+Czech Republic,oskar,https://www.hltv.org/stats/players/798/oskar,SINNERS,2110,54251,+6722,1.20,1.12
+Finland,Jimpphat,https://www.hltv.org/stats/players/18850/jimpphat,MOUZ,564,14374,+1810,1.21,1.12
+Australia,INS,https://www.hltv.org/stats/players/11140/ins,Renegades,1229,30516,+3382,1.17,1.12
+Russia,liTTle,https://www.hltv.org/stats/players/1088/little,FORZE,458,12159,+1550,1.20,1.12
+France,kennyS,https://www.hltv.org/stats/players/7167/kennys,G2,1991,52684,+6521,1.20,1.12
+Uruguay,dgt,https://www.hltv.org/stats/players/14736/dgt,9z,804,20406,+2714,1.22,1.12
+Bulgaria,h4rn,https://www.hltv.org/stats/players/20097/h4rn,FATE,928,24598,+3417,1.23,1.12
+Estonia,ropz,https://www.hltv.org/stats/players/11816/ropz,FaZe,1508,39242,+4926,1.20,1.12
+Finland,Jamppi,https://www.hltv.org/stats/players/14087/jamppi,SJ,503,13449,+1408,1.16,1.12
+Russia,El1an,https://www.hltv.org/stats/players/13281/el1an,Winstrike,1470,39066,+4995,1.21,1.12
+Brazil,zevy,https://www.hltv.org/stats/players/19692/zevy,Fluxo,725,18041,+2258,1.20,1.12
+United States,wrath,https://www.hltv.org/stats/players/9884/wrath,New Identity,525,13568,+1239,1.13,1.12
+United States,junior,https://www.hltv.org/stats/players/14494/junior,Nouns,867,21598,+3048,1.24,1.12
+Spain,SunPayus,https://www.hltv.org/stats/players/19164/sunpayus,Falcons,673,17239,+2266,1.22,1.11
+Hong Kong,Freeman,https://www.hltv.org/stats/players/10774/freeman,ViCi,852,21767,+2366,1.17,1.11
+Ukraine,headtr1ck,https://www.hltv.org/stats/players/19592/headtr1ck,B8,526,12870,+1689,1.22,1.11
+New Zealand,Sico,https://www.hltv.org/stats/players/9102/sico,Grayhound,1048,26546,+3585,1.23,1.11
+Poland,mantuu,https://www.hltv.org/stats/players/10981/mantuu,9INE,970,25080,+3065,1.20,1.11
+Thailand,PTC,https://www.hltv.org/stats/players/13238/ptc,Lucid Dream,476,12393,+1408,1.18,1.11
+Mongolia,sk0R,https://www.hltv.org/stats/players/18638/sk0r,IHC,493,13119,+1282,1.14,1.11
+Turkey,woxic,https://www.hltv.org/stats/players/8574/woxic,Eternal Fire,1484,38403,+4661,1.20,1.11
+Sweden,nawwk,https://www.hltv.org/stats/players/13670/nawwk,Apeks,1460,38060,+5093,1.23,1.11
+Slovakia,GuardiaN,https://www.hltv.org/stats/players/2757/guardian,Natus Vincere,1604,42016,+4799,1.18,1.11
+Bosnia and Herzegovina,huNter-,https://www.hltv.org/stats/players/3972/hunter,G2,1795,46676,+4580,1.15,1.11
+Singapore,splashske,https://www.hltv.org/stats/players/8943/splashske,BOOT-d[S],733,18884,+1775,1.14,1.11
+Romania,XELLOW,https://www.hltv.org/stats/players/9626/xellow,Nexus,1617,41790,+4219,1.15,1.11
+Ukraine,r1nkle,https://www.hltv.org/stats/players/20425/r1nkle,Ninjas in Pyjamas,556,13957,+1525,1.17,1.11
+Canada,Twistzz,https://www.hltv.org/stats/players/10394/twistzz,Liquid,1764,45657,+4848,1.17,1.11
+Sweden,FREDDyFROG,https://www.hltv.org/stats/players/9277/freddyfrog,Chaos,1208,32176,+3606,1.18,1.11
+Bulgaria,dream3r,https://www.hltv.org/stats/players/8412/dream3r,E-frag.net,1429,37499,+4501,1.20,1.11
+Czech Republic,forsyy,https://www.hltv.org/stats/players/19069/forsyy,ECLOT,794,19911,+2450,1.21,1.11
+Brazil,decenty,https://www.hltv.org/stats/players/20183/decenty,Imperial,564,13601,+1527,1.18,1.10
+Brazil,HEN1,https://www.hltv.org/stats/players/8565/hen1,Immortals,1614,40765,+5545,1.24,1.10
+Brazil,nqz,https://www.hltv.org/stats/players/19694/nqz,paiN,657,15946,+2122,1.23,1.10
+Russia,xsepower,https://www.hltv.org/stats/players/12733/xsepower,FORZE,1399,37464,+4862,1.22,1.10
+Sweden,f0rest,https://www.hltv.org/stats/players/29/f0rest,Ninjas in Pyjamas,2112,54926,+5648,1.16,1.10
+Russia,zorte,https://www.hltv.org/stats/players/15662/zorte,BetBoom,1275,32910,+3991,1.20,1.10
+Thailand,Olivia,https://www.hltv.org/stats/players/10664/olivia,Beyond,639,16294,+1549,1.14,1.10
+Denmark,mertz,https://www.hltv.org/stats/players/9895/mertz,North Academy,990,26255,+2655,1.16,1.10
+Canada,WARDELL,https://www.hltv.org/stats/players/11264/wardell,Ghost,609,15901,+1648,1.17,1.10
+Mongolia,erkaSt,https://www.hltv.org/stats/players/11141/erkast,Grayhound,964,25074,+2329,1.14,1.10
+Brazil,yuurih,https://www.hltv.org/stats/players/12553/yuurih,FURIA,1324,33857,+3517,1.16,1.10
+Brazil,kNgV-,https://www.hltv.org/stats/players/5736/kngv,O PLANO,1036,27069,+2658,1.15,1.10
+Slovakia,MATYS,https://www.hltv.org/stats/players/21062/matys,fnatic,706,17981,+1165,1.09,1.10
+Bulgaria,poizon,https://www.hltv.org/stats/players/12126/poizon,Complexity,1141,30143,+2855,1.15,1.10
+Finland,allu,https://www.hltv.org/stats/players/695/allu,JANO,1955,51102,+5234,1.16,1.10
+United States,oSee,https://www.hltv.org/stats/players/13249/osee,NRG,1468,37441,+4185,1.18,1.10
+Poland,hades,https://www.hltv.org/stats/players/16848/hades,ENCE,1118,29226,+3290,1.18,1.10
+Chile,dav1deuS,https://www.hltv.org/stats/players/18865/dav1deus,RED Canids,791,19658,+1552,1.12,1.10
+Canada,moose,https://www.hltv.org/stats/players/12271/moose,eUnited,752,19559,+1975,1.16,1.10
+Hungary,sl3nd,https://www.hltv.org/stats/players/20870/sl3nd,GamerLegion,505,12537,+1538,1.21,1.10
+Indonesia,xccurate,https://www.hltv.org/stats/players/10263/xccurate,TYLOO,698,18113,+1724,1.15,1.09
+Spain,mixwell,https://www.hltv.org/stats/players/8370/mixwell,OpTic,840,21804,+1911,1.13,1.09
+United States,PwnAlone,https://www.hltv.org/stats/players/15090/pwnalone,Party Astronauts,1204,30855,+3049,1.16,1.09
+Australia,ekul,https://www.hltv.org/stats/players/14505/ekul,Paradox,460,11891,+967,1.12,1.09
+United States,Brehze,https://www.hltv.org/stats/players/9136/brehze,NRG,1440,36673,+3084,1.13,1.09
+New Zealand,chelleos,https://www.hltv.org/stats/players/12877/chelleos,Rooster,778,19346,+1637,1.13,1.09
+United States,swag,https://www.hltv.org/stats/players/5021/swag,Swole Patrol,576,14852,+1597,1.17,1.09
+Brazil,insani,https://www.hltv.org/stats/players/21037/insani,MIBR,517,12696,+1075,1.13,1.09
+Israel,NertZ,https://www.hltv.org/stats/players/9436/nertz,HEROIC,622,15729,+1209,1.11,1.09
+China,z4kr,https://www.hltv.org/stats/players/18744/z4kr,Lynn Vision,550,14015,+1287,1.14,1.09
+Australia,Vexite,https://www.hltv.org/stats/players/17384/vexite,FlyQuest,622,15191,+1147,1.11,1.09
+Bulgaria,CeRq,https://www.hltv.org/stats/players/11219/cerq,NRG,1364,35021,+3581,1.17,1.09
+Denmark,JUGi,https://www.hltv.org/stats/players/8783/jugi,HEROIC,940,24427,+2676,1.18,1.09
+Germany,syrsoN,https://www.hltv.org/stats/players/7266/syrson,BIG,1990,52285,+5192,1.16,1.09
+Brazil,dumau,https://www.hltv.org/stats/players/15698/dumau,Legacy,831,21203,+2123,1.16,1.09
+Israel,Spinx,https://www.hltv.org/stats/players/18221/spinx,Vitality,751,19424,+1824,1.15,1.09
+Russia,Ax1Le,https://www.hltv.org/stats/players/16555/ax1le,Cloud9,1277,33300,+3096,1.15,1.09
+Sweden,GeT_RiGhT,https://www.hltv.org/stats/players/39/get-right,Ninjas in Pyjamas,1761,45379,+4236,1.14,1.09
+United States,ryx,https://www.hltv.org/stats/players/9042/ryx,Echo Fox,491,12856,+1181,1.14,1.09
+Finland,zehN,https://www.hltv.org/stats/players/1378/zehn,HAVU,1181,31389,+2620,1.13,1.09
+South Africa,Sonic,https://www.hltv.org/stats/players/8711/sonic,Wildcard,1200,30034,+2641,1.14,1.09
+Belgium,ScreaM,https://www.hltv.org/stats/players/7390/scream,Envy,1428,37066,+3099,1.13,1.09
+Russia,mir,https://www.hltv.org/stats/players/8789/mir,Spirit,1224,31844,+2819,1.13,1.09
+Canada,NAF,https://www.hltv.org/stats/players/8520/naf,Liquid,1905,49565,+4888,1.16,1.09
+Australia,BL1TZ,https://www.hltv.org/stats/players/12715/bl1tz,Chiefs,740,19035,+1601,1.13,1.09
+Brazil,togs,https://www.hltv.org/stats/players/20084/togs,ODDIK,553,13238,+1275,1.15,1.09
+Germany,slaxz-,https://www.hltv.org/stats/players/15370/slaxz,M80,1454,38368,+3944,1.17,1.09
+Germany,nex,https://www.hltv.org/stats/players/7256/nex,BIG,1074,28389,+2435,1.13,1.09
+Brazil,vsm,https://www.hltv.org/stats/players/16816/vsm,DETONA,876,22607,+1805,1.12,1.09
+Jordan,BOROS,https://www.hltv.org/stats/players/19763/boros,Monte,666,17590,+815,1.06,1.08
+Lithuania,nukkye,https://www.hltv.org/stats/players/13679/nukkye,Imperial,592,15492,+1330,1.13,1.08
+Sweden,draken,https://www.hltv.org/stats/players/9255/draken,Epsilon,1573,41242,+4126,1.16,1.08
+Finland,ottoNd,https://www.hltv.org/stats/players/11283/ottond,HAVU,1150,29847,+2911,1.16,1.08
+Brazil,Lucaozy,https://www.hltv.org/stats/players/18717/lucaozy,Fluxo,869,21952,+2003,1.14,1.08
+Denmark,nicoodoz,https://www.hltv.org/stats/players/13602/nicoodoz,Copenhagen Flames,1195,30936,+3013,1.16,1.08
+Sweden,nilo,https://www.hltv.org/stats/players/20119/nilo,Metizport,735,18393,+1405,1.12,1.08
+United States,EliGE,https://www.hltv.org/stats/players/8738/elige,Complexity,1958,50804,+3602,1.10,1.08
+Brazil,fer,https://www.hltv.org/stats/players/8564/fer,SK,1467,38455,+2828,1.11,1.08
+Brazil,JOTA,https://www.hltv.org/stats/players/17861/jota,MIBR,650,16908,+1573,1.15,1.08
+Australia,aliStair,https://www.hltv.org/stats/players/11139/alistair,ORDER,1330,33120,+3169,1.15,1.08
+China,Savage,https://www.hltv.org/stats/players/180/savage,VG.CyberZen,836,21434,+1926,1.14,1.08
+Serbia,DJOXiC,https://www.hltv.org/stats/players/3543/djoxic,Binary Dragons,489,12531,+1204,1.15,1.08
+United States,Infinite,https://www.hltv.org/stats/players/14619/infinite,Party Astronauts,1178,30141,+2244,1.11,1.08
+Belarus,lollipop21k,https://www.hltv.org/stats/players/13980/lollipop21k,Nemiga,1454,38688,+2745,1.11,1.08
+Guatemala,malbsMd,https://www.hltv.org/stats/players/11617/malbsmd,TeamOne,946,23414,+1322,1.08,1.08
+Brazil,supLexN1,https://www.hltv.org/stats/players/18963/suplexn1,Meta,474,12347,+1273,1.17,1.08
+Denmark,Farlig,https://www.hltv.org/stats/players/13300/farlig,Copenhagen Flames,881,23711,+2149,1.14,1.08
+Germany,keev,https://www.hltv.org/stats/players/5799/keev,ALTERNATE aTTaX,594,15524,+1217,1.12,1.08
+Finland,sergej,https://www.hltv.org/stats/players/11916/sergej,ENCE,776,20425,+1816,1.14,1.08
+Israel,anarkez,https://www.hltv.org/stats/players/11815/anarkez,Finest,1068,28195,+2414,1.13,1.08
+China,Attacker,https://www.hltv.org/stats/players/8552/attacker,TYLOO,1325,34097,+2714,1.12,1.08
+United States,ShahZaM,https://www.hltv.org/stats/players/7810/shahzam,Complexity,966,25252,+2058,1.13,1.08
+Belgium,ritchiEE,https://www.hltv.org/stats/players/19059/ritchiee,EC Brugge,565,14908,+1110,1.11,1.08
+Latvia,broky,https://www.hltv.org/stats/players/18053/broky,FaZe,1079,28029,+2758,1.16,1.08
+United States,CLASIA,https://www.hltv.org/stats/players/19846/clasia,RBG,533,13626,+1049,1.12,1.08
+Brazil,felps,https://www.hltv.org/stats/players/9219/felps,Imperial,1453,36173,+2170,1.09,1.08
+Denmark,Ryxxo,https://www.hltv.org/stats/players/8848/ryxxo,Tricked,906,23810,+2059,1.14,1.08
+Russia,electroNic,https://www.hltv.org/stats/players/8918/electronic,Natus Vincere,1646,42747,+3096,1.11,1.08
+Australia,hazr,https://www.hltv.org/stats/players/14294/hazr,AVANT,1067,26565,+1592,1.09,1.08
+Sweden,jayzaR,https://www.hltv.org/stats/players/8555/jayzar,Valiance,597,15785,+1058,1.10,1.08
+United States,Cooper,https://www.hltv.org/stats/players/15007/cooper,Mythic,1022,26000,+2077,1.12,1.08
+Bulgaria,dennyslaw,https://www.hltv.org/stats/players/13466/dennyslaw,SKADE,1655,44088,+3735,1.13,1.07
+Australia,Hatz,https://www.hltv.org/stats/players/11162/hatz,ORDER,1063,26929,+2156,1.13,1.07
+Australia,asap,https://www.hltv.org/stats/players/18545/asap,Rooster,476,11521,+894,1.12,1.07
+United States,dapr,https://www.hltv.org/stats/players/11586/dapr,eUnited,594,15426,+1002,1.10,1.07
+United States,ptr,https://www.hltv.org/stats/players/8707/ptr,Bad News Bears,1138,29765,+2687,1.15,1.07
+Australia,Rickeh,https://www.hltv.org/stats/players/8745/rickeh,ORDER,990,25754,+2403,1.15,1.07
+France,Maka,https://www.hltv.org/stats/players/13138/maka,3DMAX,1779,45987,+3909,1.14,1.07
+Denmark,k0nfig,https://www.hltv.org/stats/players/9078/k0nfig,Dignitas,1773,46894,+2440,1.08,1.07
+New Zealand,ADDICT,https://www.hltv.org/stats/players/20086/addict,VERTEX,584,14307,+1157,1.13,1.07
+United States,cynic,https://www.hltv.org/stats/players/16546/cynic,Nouns,1055,27235,+2126,1.12,1.07
+China,gas,https://www.hltv.org/stats/players/10722/gas,Wings Up,590,15347,+759,1.07,1.07
+Turkey,Calyx,https://www.hltv.org/stats/players/8575/calyx,Eternal Fire,1442,37279,+3131,1.13,1.07
+Brazil,exit,https://www.hltv.org/stats/players/11154/exit,MIBR,1260,31729,+3183,1.17,1.07
+Mongolia,Annihilation,https://www.hltv.org/stats/players/18689/annihilation,ATOX,486,12685,+1178,1.15,1.07
+Estonia,fejtZ,https://www.hltv.org/stats/players/7910/fejtz,sYnck,1012,26483,+1956,1.11,1.07
+Denmark,valde,https://www.hltv.org/stats/players/9031/valde,TSM,1539,39872,+3018,1.12,1.07
+Israel,HeavyGod,https://www.hltv.org/stats/players/20447/heavygod,Endpoint,519,13224,+1043,1.12,1.07
+France,shox,https://www.hltv.org/stats/players/1225/shox,G2,2097,55018,+3889,1.11,1.07
+Germany,Krimbo,https://www.hltv.org/stats/players/19899/krimbo,BIG,841,21725,+1971,1.15,1.07
+Poland,MICHU,https://www.hltv.org/stats/players/7356/michu,Virtus.pro,1885,49295,+3073,1.09,1.07
+Lithuania,EspiranTo,https://www.hltv.org/stats/players/12030/espiranto,Imperial,889,23197,+1367,1.09,1.07
+Denmark,dupreeh,https://www.hltv.org/stats/players/7398/dupreeh,Astralis,2285,58875,+4444,1.12,1.07
+Denmark,NaToSaphiX,https://www.hltv.org/stats/players/9294/natosaphix,Sprout,1068,28417,+2625,1.15,1.07
+Brazil,xand,https://www.hltv.org/stats/players/9218/xand,INTZ,515,13210,+875,1.10,1.07
+Poland,reiko,https://www.hltv.org/stats/players/15203/reiko,Revenant,995,25391,+1234,1.07,1.07
+Russia,FL1T,https://www.hltv.org/stats/players/12732/fl1t,Virtus.pro,1590,41862,+3286,1.12,1.07
+Germany,faveN,https://www.hltv.org/stats/players/14932/faven,Sprout,1682,44256,+3285,1.11,1.07
+United States,dare,https://www.hltv.org/stats/players/19710/dare,timbermen,537,13063,+697,1.08,1.07
+Denmark,Magisk,https://www.hltv.org/stats/players/9032/magisk,Astralis,1729,45010,+3517,1.12,1.07
+Australia,InfrequeNt,https://www.hltv.org/stats/players/10587/infrequent,Athletico,488,12549,+926,1.11,1.07
+Czech Republic,Blogg1s,https://www.hltv.org/stats/players/13567/blogg1s,eSuba,488,13174,+1057,1.13,1.07
+Mongolia,bLitz,https://www.hltv.org/stats/players/20194/blitz,The MongolZ,602,15288,+962,1.09,1.07
+Denmark,Pimp,https://www.hltv.org/stats/players/7154/pimp,Dignitas,983,25223,+2054,1.13,1.07
+Brazil,biguzera,https://www.hltv.org/stats/players/18141/biguzera,paiN,1187,29969,+2207,1.11,1.07
+Australia,Liazz,https://www.hltv.org/stats/players/10588/liazz,Renegades,1249,31445,+2539,1.13,1.07
+Canada,shroud,https://www.hltv.org/stats/players/8349/shroud,Cloud9,676,17460,+1311,1.12,1.07
+Russia,WorldEdit,https://www.hltv.org/stats/players/7403/worldedit,FlipSid3,1331,34780,+2443,1.11,1.07
+Finland,ZOREE,https://www.hltv.org/stats/players/8576/zoree,HAVU,1911,50919,+4067,1.13,1.07
+Romania,MoDo,https://www.hltv.org/stats/players/21113/modo,OG,561,14200,+1305,1.15,1.07
+Germany,PANIX,https://www.hltv.org/stats/players/19283/panix,ALTERNATE aTTaX,608,15407,+1183,1.12,1.07
+Argentina,NikoM,https://www.hltv.org/stats/players/10504/nikom,TeamOne,542,13969,+957,1.10,1.07
+Denmark,Lucky,https://www.hltv.org/stats/players/13843/lucky,Sashi,1166,29462,+2620,1.15,1.07
+Serbia,Impulse,https://www.hltv.org/stats/players/12379/impulse,Valiance,818,21711,+1558,1.11,1.06
+China,Summer,https://www.hltv.org/stats/players/7028/summer,TYLOO,1453,36963,+2726,1.11,1.06
+Germany,hyped,https://www.hltv.org/stats/players/21468/hyped,ALTERNATE aTTaX,637,15586,+1241,1.13,1.06
+Argentina,tomaszin,https://www.hltv.org/stats/players/22570/tomaszin,BESTIA,471,11028,+689,1.09,1.06
+Norway,hallzerk,https://www.hltv.org/stats/players/12840/hallzerk,Complexity,1087,28566,+1981,1.11,1.06
+Ukraine,smike,https://www.hltv.org/stats/players/8526/smike,pro100,496,12846,+601,1.07,1.06
+Bulgaria,REDSTAR,https://www.hltv.org/stats/players/15369/redstar,Fiend,1049,27532,+2225,1.13,1.06
+Brazil,venomzera,https://www.hltv.org/stats/players/21288/venomzera,RED Canids,542,12825,+657,1.08,1.06
+New Zealand,ofnu,https://www.hltv.org/stats/players/8767/ofnu,Tainted Minds,852,21778,+1380,1.10,1.06
+Czech Republic,NEOFRAG,https://www.hltv.org/stats/players/15821/neofrag,SINNERS,1023,26719,+1328,1.07,1.06
+Netherlands,CRUC1AL,https://www.hltv.org/stats/players/7996/cruc1al,Endpoint,1935,49823,+3609,1.11,1.06
+France,hAdji,https://www.hltv.org/stats/players/9656/hadji,LDLC,1534,39974,+2698,1.10,1.06
+United States,Ethan,https://www.hltv.org/stats/players/10671/ethan,NRG,986,25998,+1488,1.09,1.06
+China,DD,https://www.hltv.org/stats/players/7026/dd,TYLOO,956,24553,+1511,1.09,1.06
+Poland,fr3nd,https://www.hltv.org/stats/players/20018/fr3nd,Enterprise,599,14676,+1148,1.12,1.06
+China,somebody,https://www.hltv.org/stats/players/8605/somebody,TYLOO,1393,35557,+2217,1.09,1.06
+Russia,iDISBALANCE,https://www.hltv.org/stats/players/14273/idisbalance,9 Pandas,1454,37499,+3364,1.15,1.06
+Poland,snatchie,https://www.hltv.org/stats/players/9574/snatchie,AGO,1717,45931,+2593,1.08,1.06
+Brazil,boltz,https://www.hltv.org/stats/players/8568/boltz,Immortals,1448,37799,+2777,1.12,1.06
+France,Happy,https://www.hltv.org/stats/players/7429/happy,Envy,1462,37912,+2739,1.11,1.06
+United States,autimatic,https://www.hltv.org/stats/players/8735/autimatic,Cloud9,1499,38264,+2428,1.09,1.06
+Lithuania,jL,https://www.hltv.org/stats/players/19206/jl,Natus Vincere,782,20394,+1215,1.09,1.06
+Australia,jks,https://www.hltv.org/stats/players/4679/jks,Renegades,1397,36367,+2530,1.11,1.06
+France,afro,https://www.hltv.org/stats/players/19926/afro,fnatic,980,25359,+1813,1.11,1.06
+Ukraine,COLDYY1,https://www.hltv.org/stats/players/9083/coldyy1,Spirit,947,24917,+1718,1.11,1.06
+Bulgaria,Rainwaker,https://www.hltv.org/stats/players/17145/rainwaker,500,1532,40886,+2870,1.11,1.06
+Brazil,t9rnay,https://www.hltv.org/stats/players/18894/t9rnay,W7M,474,11903,+745,1.09,1.06
+Denmark,acoR,https://www.hltv.org/stats/players/10330/acor,Tricked,1428,36636,+2666,1.12,1.06
+China,zhokiNg,https://www.hltv.org/stats/players/8601/zhoking,ViCi,1258,32112,+1417,1.06,1.06
+Sweden,phzy,https://www.hltv.org/stats/players/16726/phzy,Young Ninjas,759,19940,+1530,1.12,1.06
+Turkey,paz,https://www.hltv.org/stats/players/9353/paz,Space Soldiers,1147,30130,+1910,1.10,1.06
+Poland,SaMey,https://www.hltv.org/stats/players/20245/samey,Sangal,717,17849,+1443,1.13,1.06
+Australia,pz,https://www.hltv.org/stats/players/18736/pz,VERTEX,709,17703,+1245,1.11,1.06
+Brazil,FalleN,https://www.hltv.org/stats/players/2023/fallen,FURIA,1908,49302,+4039,1.14,1.06
+United States,koosta,https://www.hltv.org/stats/players/9056/koosta,CLG,977,25766,+1341,1.08,1.06
+Brazil,pancc,https://www.hltv.org/stats/players/16314/pancc,W7M,602,15875,+818,1.08,1.06
+Jordan,ISSAA,https://www.hltv.org/stats/players/10449/issaa,HellRaisers,900,23483,+1545,1.10,1.06
+Thailand,TOR,https://www.hltv.org/stats/players/9288/tor,Signature,452,11472,+657,1.09,1.06
+United Kingdom,mezii,https://www.hltv.org/stats/players/18462/mezii,Vitality,840,21962,+1444,1.10,1.06
+Bosnia and Herzegovina,brutmonster,https://www.hltv.org/stats/players/21783/brutmonster,Zero Tenacity,730,17598,+1176,1.10,1.06
+Hungary,fleav,https://www.hltv.org/stats/players/12317/fleav,Budapest Five,702,18265,+951,1.08,1.06
+United States,Skadoodle,https://www.hltv.org/stats/players/7440/skadoodle,Cloud9,1068,27556,+2417,1.15,1.06
+Sweden,olofmeister,https://www.hltv.org/stats/players/885/olofmeister,fnatic,1586,41448,+2735,1.10,1.06
+Latvia,YEKINDAR,https://www.hltv.org/stats/players/13915/yekindar,Liquid,1435,37638,+1469,1.06,1.06
+Brazil,trk,https://www.hltv.org/stats/players/11163/trk,TeamOne,989,25829,+1602,1.10,1.05
+Bulgaria,SHiPZ,https://www.hltv.org/stats/players/11343/shipz,500,2072,54722,+2452,1.06,1.05
+Australia,Valiance,https://www.hltv.org/stats/players/16323/valiance,ORDER,730,18723,+1153,1.10,1.05
+China,SLOWLY,https://www.hltv.org/stats/players/15683/slowly,TYLOO,581,15418,+689,1.07,1.05
+Russia,shalfey,https://www.hltv.org/stats/players/17011/shalfey,FORZE,965,24692,+1854,1.12,1.05
+Brazil,latto,https://www.hltv.org/stats/players/19045/latto,Legacy,735,18643,+1225,1.10,1.05
+Finland,suNny,https://www.hltv.org/stats/players/5479/sunny,ENCE,1390,36687,+1610,1.06,1.05
+China,bottle,https://www.hltv.org/stats/players/10168/bottle,Born Of Fire,770,19840,+867,1.06,1.05
+Ukraine,b1t,https://www.hltv.org/stats/players/18987/b1t,Natus Vincere,760,19578,+1318,1.11,1.05
+Kosovo,gxx-,https://www.hltv.org/stats/players/19725/gxx,Bad News Eagles,758,19572,+1571,1.13,1.05
+Kazakhstan,HObbit,https://www.hltv.org/stats/players/8528/hobbit,Gambit,1511,39394,+2386,1.09,1.05
+Australia,dexter,https://www.hltv.org/stats/players/9115/dexter,Grayhound,1295,32692,+1588,1.07,1.05
+Russia,fame,https://www.hltv.org/stats/players/20101/fame,Virtus.pro,859,22007,+1291,1.09,1.05
+Russia,FpSSS,https://www.hltv.org/stats/players/20201/fpsss,Insilio,565,13924,+918,1.10,1.05
+Denmark,stavn,https://www.hltv.org/stats/players/10994/stavn,HEROIC,1421,37368,+2003,1.08,1.05
+China,HZ,https://www.hltv.org/stats/players/7016/hz,TYLOO,500,12856,+691,1.08,1.05
+Brazil,RCF,https://www.hltv.org/stats/players/11337/rcf,Case,1037,26375,+1559,1.09,1.05
+Argentina,meyern,https://www.hltv.org/stats/players/14737/meyern,BESTIA,842,21330,+1071,1.08,1.05
+North Macedonia,CacaNito,https://www.hltv.org/stats/players/18790/cacanito,BLUEJAYS,701,17925,+682,1.05,1.05
+United States,floppy,https://www.hltv.org/stats/players/12713/floppy,Complexity,1167,29979,+1600,1.08,1.05
+Denmark,cajunb,https://www.hltv.org/stats/players/2469/cajunb,North,1751,45848,+2868,1.10,1.05
+Russia,d1Ledez,https://www.hltv.org/stats/players/20357/d1ledez,9 Pandas,631,15535,+682,1.06,1.05
+Poland,rallen,https://www.hltv.org/stats/players/5388/rallen,Kinguin,2055,54636,+3346,1.09,1.05
+Australia,zeph,https://www.hltv.org/stats/players/13054/zeph,ORDER,601,15269,+607,1.06,1.05
+Romania,iM,https://www.hltv.org/stats/players/14759/im,Natus Vincere,1115,29188,+1231,1.06,1.05
+Romania,lauNX,https://www.hltv.org/stats/players/20761/launx,Revenant,680,17550,+708,1.06,1.05
+United States,yay,https://www.hltv.org/stats/players/8513/yay,Complexity,653,17182,+604,1.05,1.05
+Ukraine,s4ltovsk1yy,https://www.hltv.org/stats/players/19614/s4ltovsk1yy,kONO,721,18706,+1381,1.12,1.05
+Brazil,piriajr,https://www.hltv.org/stats/players/18714/piriajr,Bounty Hunters,649,16471,+853,1.08,1.05
+Poland,dycha,https://www.hltv.org/stats/players/16080/dycha,ENCE,1169,30445,+1314,1.06,1.05
+United States,SicK,https://www.hltv.org/stats/players/9258/sick,Rogue,795,20701,+1040,1.07,1.05
+Poland,KEi,https://www.hltv.org/stats/players/17504/kei,9INE,1100,29024,+1022,1.05,1.05
+Australia,tucks,https://www.hltv.org/stats/players/9108/tucks,Mindfreak,882,21813,+1254,1.09,1.05
+New Zealand,Gratisfaction,https://www.hltv.org/stats/players/9686/gratisfaction,Grayhound,954,24861,+1631,1.10,1.05
+Brazil,nython,https://www.hltv.org/stats/players/18743/nython,RED Canids,968,24240,+1615,1.11,1.05
+Kazakhstan,mou,https://www.hltv.org/stats/players/964/mou,Gambit,1563,41429,+2513,1.09,1.05
+Spain,loWel,https://www.hltv.org/stats/players/3997/lowel,Movistar Riders,1008,26413,+1739,1.10,1.05
+Brazil,desh,https://www.hltv.org/stats/players/17133/desh,Meta,461,11823,+738,1.10,1.05
+Norway,Marcelious,https://www.hltv.org/stats/players/14602/marcelious,Apeks,529,14241,+696,1.07,1.05
+United States,WolfY,https://www.hltv.org/stats/players/12937/wolfy,Party Astronauts,923,23680,+1761,1.12,1.05
+Brazil,raafa,https://www.hltv.org/stats/players/11748/raafa,W7M,640,16832,+1092,1.10,1.05
+Denmark,roeJ,https://www.hltv.org/stats/players/14419/roej,Copenhagen Flames,1286,33054,+1443,1.06,1.05
+Brazil,detr0ittJ,https://www.hltv.org/stats/players/18610/detr0ittj,Galorys,635,15602,+1030,1.11,1.05
+United States,Zellsis,https://www.hltv.org/stats/players/13188/zellsis,Swole Patrol,626,16210,+803,1.07,1.05
+Mexico,MarKE,https://www.hltv.org/stats/players/10892/marke,Nouns,1248,31543,+1829,1.09,1.05
+Brazil,gbb,https://www.hltv.org/stats/players/20522/gbb,Solid,535,13090,+507,1.06,1.05
+Brazil,shz,https://www.hltv.org/stats/players/11739/shz,O PLANO,1125,28567,+1601,1.09,1.05
+Russia,rommi,https://www.hltv.org/stats/players/10589/rommi,Spirit Academy,516,13467,+604,1.06,1.05
+Kosovo,juanflatroo,https://www.hltv.org/stats/players/17147/juanflatroo,Bad News Eagles,1037,26755,+735,1.04,1.05
+Latvia,Flarich,https://www.hltv.org/stats/players/11250/flarich,HellRaisers,1088,29007,+1816,1.10,1.04
+Brazil,gafolo,https://www.hltv.org/stats/players/20558/gafolo,Sharks,714,17736,+1231,1.11,1.04
+Sweden,Brollan,https://www.hltv.org/stats/players/13666/brollan,fnatic,1311,34320,+1416,1.06,1.04
+Brazil,skullz,https://www.hltv.org/stats/players/18676/skullz,paiN,776,19927,+1174,1.09,1.04
+Poland,tomiko,https://www.hltv.org/stats/players/20283/tomiko,Permitta,714,17750,+475,1.04,1.04
+Mongolia,nin9,https://www.hltv.org/stats/players/15072/nin9,TIGER,520,13521,+831,1.10,1.04
+Ukraine,sdy,https://www.hltv.org/stats/players/12731/sdy,Spirit,1566,40813,+2538,1.10,1.04
+Israel,flameZ,https://www.hltv.org/stats/players/16693/flamez,Vitality,720,18651,+782,1.06,1.04
+United States,Jeorge,https://www.hltv.org/stats/players/20333/jeorge,Nouns,767,19155,+907,1.07,1.04
+United States,Swisher,https://www.hltv.org/stats/players/16599/swisher,M80,1165,29639,+1256,1.06,1.04
+United States,Grim,https://www.hltv.org/stats/players/13578/grim,Complexity,1249,32167,+951,1.04,1.04
+Slovakia,fino,https://www.hltv.org/stats/players/20839/fino,Sampi,471,10895,+725,1.11,1.04
+Brazil,b4rtiN,https://www.hltv.org/stats/players/17585/b4rtin,Legacy,765,19151,+1001,1.08,1.04
+New Zealand,zewsy,https://www.hltv.org/stats/players/8764/zewsy,Tainted Minds,618,15666,+667,1.06,1.04
+Denmark,cadiaN,https://www.hltv.org/stats/players/7964/cadian,HEROIC,1783,46657,+3080,1.11,1.04
+Poland,STOMP,https://www.hltv.org/stats/players/12699/stomp,x-kom,809,21729,+1329,1.10,1.04
+Denmark,Kjaerbye,https://www.hltv.org/stats/players/8394/kjaerbye,North,1562,41095,+2089,1.08,1.04
+Sweden,eraa,https://www.hltv.org/stats/players/16487/eraa,GamerLegion,930,24352,+1351,1.09,1.04
+Russia,KENSI,https://www.hltv.org/stats/players/19236/kensi,Aurora,1106,28332,+1520,1.08,1.04
+United States,Bwills,https://www.hltv.org/stats/players/16647/bwills,Nouns,1162,30147,+1471,1.07,1.04
+Australia,malta,https://www.hltv.org/stats/players/11485/malta,Grayhound,1146,29145,+1550,1.08,1.04
+United States,Hiko,https://www.hltv.org/stats/players/2644/hiko,Liquid,937,24398,+1532,1.10,1.04
+Sweden,KRIMZ,https://www.hltv.org/stats/players/7528/krimz,fnatic,2147,55738,+3212,1.09,1.04
+Russia,r3salt,https://www.hltv.org/stats/players/20709/r3salt,FORZE,636,15327,+562,1.05,1.04
+Brazil,hardzao,https://www.hltv.org/stats/players/16817/hardzao,paiN,1208,30551,+1915,1.10,1.04
+Brazil,chelo,https://www.hltv.org/stats/players/10566/chelo,FURIA,1241,31555,+1243,1.06,1.04
+Brazil,remix,https://www.hltv.org/stats/players/2544/remix,Vikings KR,819,20971,+1153,1.09,1.04
+Korea,HSK,https://www.hltv.org/stats/players/9174/hsk,MVP PK,540,13851,+845,1.10,1.04
+China,aumaN,https://www.hltv.org/stats/players/8604/auman,ViCi,932,23765,+1202,1.08,1.04
+Finland,Aerial,https://www.hltv.org/stats/players/4076/aerial,ENCE,1154,30757,+1296,1.06,1.04
+Russia,DavCost,https://www.hltv.org/stats/players/8124/davcost,Spirit,1360,35819,+1918,1.08,1.04
+Denmark,Bubzkji,https://www.hltv.org/stats/players/9612/bubzkji,Tricked,817,21619,+963,1.07,1.04
+Sweden,JW,https://www.hltv.org/stats/players/3849/jw,EYEBALLERS,2607,67546,+2487,1.05,1.04
+Portugal,story,https://www.hltv.org/stats/players/20462/story,SAW,656,16369,+1124,1.11,1.04
+China,flying,https://www.hltv.org/stats/players/16872/flying,Invictus,539,14004,+509,1.05,1.04
+Brazil,lux,https://www.hltv.org/stats/players/20563/lux,paiN,611,14765,+620,1.06,1.04
+Brazil,kauez,https://www.hltv.org/stats/players/20085/kauez,paiN,640,15606,+610,1.06,1.04
+Norway,jkaem,https://www.hltv.org/stats/players/8248/jkaem,Apeks,1887,49085,+1329,1.04,1.04
+Canada,ANDROID,https://www.hltv.org/stats/players/9043/android,Complexity,835,21741,+1036,1.07,1.04
+China,Westmelon,https://www.hltv.org/stats/players/16551/westmelon,Lynn Vision,564,14318,+425,1.04,1.04
+Poland,Sobol,https://www.hltv.org/stats/players/15940/sobol,PACT,1463,37941,+1609,1.06,1.04
+Germany,tabseN,https://www.hltv.org/stats/players/5794/tabsen,BIG,2412,63128,+1290,1.03,1.04
+China,LOVEYY,https://www.hltv.org/stats/players/8957/loveyy,Flash,708,17977,+699,1.06,1.04
+United States,motm,https://www.hltv.org/stats/players/13230/motm,ATK,1127,29456,+1046,1.05,1.04
+Brazil,KHTEX,https://www.hltv.org/stats/players/10842/khtex,Paquetá,628,16208,+867,1.08,1.04
+Bosnia and Herzegovina,dEE,https://www.hltv.org/stats/players/4576/dee,lvlUP,512,13533,+657,1.07,1.04
+Ukraine,npl,https://www.hltv.org/stats/players/21708/npl,B8,532,12705,+448,1.05,1.04
+Belgium,Davidp,https://www.hltv.org/stats/players/8138/davidp,3DMAX,774,20539,+1009,1.08,1.03
+China,tb,https://www.hltv.org/stats/players/839/tb,VG.CyberZen,619,15737,+708,1.07,1.03
+United States,SLIGHT,https://www.hltv.org/stats/players/19128/slight,Wildcard,657,16323,+903,1.09,1.03
+Denmark,TeSeS,https://www.hltv.org/stats/players/12018/teses,HEROIC,1207,31411,+1197,1.06,1.03
+United States,tarik,https://www.hltv.org/stats/players/8523/tarik,CLG,1438,37326,+1316,1.05,1.03
+Russia,TRAVIS,https://www.hltv.org/stats/players/16948/travis,AMKAL,925,24171,+940,1.06,1.03
+Portugal,ewjerkz,https://www.hltv.org/stats/players/20464/ewjerkz,SAW,619,15404,+432,1.04,1.03
+Bulgaria,NK4Y,https://www.hltv.org/stats/players/10761/nk4y,Outlaws,480,12325,+429,1.05,1.03
+Thailand,Kntz,https://www.hltv.org/stats/players/10705/kntz,Alpha Red,552,14299,+670,1.07,1.03
+Canada,Subroza,https://www.hltv.org/stats/players/11231/subroza,Ghost,623,16275,+375,1.03,1.03
+Australia,USTILO,https://www.hltv.org/stats/players/8771/ustilo,Renegades,1153,29801,+931,1.05,1.03
+Denmark,Zyphon,https://www.hltv.org/stats/players/20090/zyphon,TSM,921,23574,+946,1.06,1.03
+Brazil,chayJESUS,https://www.hltv.org/stats/players/20026/chayjesus,Fluxo,531,13040,+447,1.05,1.03
+Australia,yam,https://www.hltv.org/stats/players/2555/yam,Renegades,547,14003,+650,1.07,1.03
+United States,Swahn,https://www.hltv.org/stats/players/15255/swahn,iNTACT,489,12881,+599,1.07,1.03
+Switzerland,rigoN,https://www.hltv.org/stats/players/12708/rigon,Bad News Eagles,823,21081,+94,1.01,1.03
+Sweden,chawzyyy,https://www.hltv.org/stats/players/19021/chawzyyy,Galaxy Racer,561,14380,+664,1.07,1.03
+Denmark,Fessor,https://www.hltv.org/stats/players/16718/fessor,CPH Wolves,607,15689,+386,1.04,1.03
+Sweden,znajder,https://www.hltv.org/stats/players/3847/znajder,GODSENT,1050,27577,+1070,1.06,1.03
+Sweden,Relaxa,https://www.hltv.org/stats/players/9279/relaxa,Chaos,1204,32063,+1931,1.10,1.03
+Sweden,REZ,https://www.hltv.org/stats/players/9278/rez,Ninjas in Pyjamas,1671,43489,+1507,1.05,1.03
+Czech Republic,DEV7L,https://www.hltv.org/stats/players/9358/dev7l,eXtatus,549,14256,+582,1.06,1.03
+Ukraine,j3kie,https://www.hltv.org/stats/players/20228/j3kie,FAVBET,546,14088,+332,1.03,1.03
+Serbia,nexa,https://www.hltv.org/stats/players/9618/nexa,G2,1586,41326,+1847,1.07,1.03
+Canada,HexT,https://www.hltv.org/stats/players/18838/hext,NRG,930,23366,+780,1.05,1.03
+Israel,xertioN,https://www.hltv.org/stats/players/20312/xertion,MOUZ,527,13172,+454,1.05,1.03
+Denmark,J3nsyy,https://www.hltv.org/stats/players/20380/j3nsyy,MASONIC,587,15772,+800,1.08,1.03
+Sweden,spooke,https://www.hltv.org/stats/players/19064/spooke,Johnny Speeds,750,19217,+538,1.04,1.03
+Brazil,rdnzao,https://www.hltv.org/stats/players/21921/rdnzao,Sharks,516,12279,+458,1.06,1.03
+Germany,kressy,https://www.hltv.org/stats/players/12782/kressy,ALTERNATE aTTaX,1106,29606,+1167,1.06,1.03
+Germany,stfN,https://www.hltv.org/stats/players/8800/stfn,ALTERNATE aTTaX,1365,36267,+1442,1.06,1.03
+Denmark,refrezh,https://www.hltv.org/stats/players/10610/refrezh,Preasy,1522,39314,+1540,1.06,1.03
+Mongolia,dobu,https://www.hltv.org/stats/players/9521/dobu,ATOX,1030,26546,+657,1.04,1.03
+Australia,Roflko,https://www.hltv.org/stats/players/18738/roflko,DXA,475,12060,+250,1.03,1.03
+Netherlands,FASHR,https://www.hltv.org/stats/players/11954/fashr,Lyngby Vikings,978,25848,+590,1.03,1.03
+Sweden,twist,https://www.hltv.org/stats/players/7443/twist,Alliance,2104,54895,+1731,1.05,1.03
+Ukraine,AiyvaN,https://www.hltv.org/stats/players/9349/aiyvan,pro100,709,18391,+557,1.05,1.03
+China,shuadapai,https://www.hltv.org/stats/players/11576/shuadapai,5POWER,549,14214,+492,1.05,1.03
+Brazil,land1n,https://www.hltv.org/stats/players/10557/land1n,paiN,974,25022,+1323,1.09,1.03
+Sweden,dennis,https://www.hltv.org/stats/players/1146/dennis,Apeks,1578,41942,+1136,1.04,1.03
+United States,food,https://www.hltv.org/stats/players/9875/food,eUnited,456,11711,+380,1.05,1.03
+Denmark,aizy,https://www.hltv.org/stats/players/8095/aizy,North,1659,43577,+1196,1.04,1.03
+Czech Republic,Dytor,https://www.hltv.org/stats/players/19815/dytor,ECLOT,670,16768,+328,1.03,1.02
+Poland,Snax,https://www.hltv.org/stats/players/2553/snax,Virtus.pro,2535,66461,+2536,1.06,1.02
+Finland,hoody,https://www.hltv.org/stats/players/13396/hoody,HAVU,575,15453,+402,1.04,1.02
+Belarus,CyberFocus,https://www.hltv.org/stats/players/8255/cyberfocus,Nemiga,491,12779,+320,1.04,1.02
+Kazakhstan,Qikert,https://www.hltv.org/stats/players/13239/qikert,AVANGAR,1572,40861,+1750,1.07,1.02
+Brazil,kai,https://www.hltv.org/stats/players/14445/kai,Bravos,483,12692,+415,1.05,1.02
+Brazil,brnz4n,https://www.hltv.org/stats/players/20987/brnz4n,MIBR,613,15111,+389,1.04,1.02
+Brazil,koala,https://www.hltv.org/stats/players/21170/koala,Sharks,463,11258,+484,1.07,1.02
+Poland,pashaBiceps,https://www.hltv.org/stats/players/317/pashabiceps,Virtus.pro,1597,41346,+989,1.03,1.02
+Brazil,destiny,https://www.hltv.org/stats/players/9483/destiny,Paquetá,1549,39135,+854,1.03,1.02
+Turkey,imoRR,https://www.hltv.org/stats/players/15835/imorr,Eternal Fire,827,22242,+232,1.01,1.02
+Sweden,flusha,https://www.hltv.org/stats/players/3055/flusha,fnatic,2255,59296,+2172,1.06,1.02
+Argentina,atarax1a,https://www.hltv.org/stats/players/20268/atarax1a,KRÜ,476,11929,+492,1.06,1.02
+Hungary,kolor,https://www.hltv.org/stats/players/10698/kolor,GameAgents,605,15745,+388,1.04,1.02
+Poland,Markoś,https://www.hltv.org/stats/players/11276/marko,AVEZ,984,25819,+1245,1.08,1.02
+Denmark,dragonfly,https://www.hltv.org/stats/players/10992/dragonfly,Fragsters,507,13234,+502,1.06,1.02
+Kazakhstan,smiley,https://www.hltv.org/stats/players/17793/smiley,100PG,486,13176,+634,1.08,1.02
+Serbia,DiMKE,https://www.hltv.org/stats/players/3732/dimke,lvlUP,711,18712,+476,1.04,1.02
+Russia,Patsi,https://www.hltv.org/stats/players/19673/patsi,PARIVISION,826,21308,+325,1.02,1.02
+United States,jdm64,https://www.hltv.org/stats/players/8346/jdm64,Liquid,823,21321,+825,1.06,1.02
+Brazil,fnx,https://www.hltv.org/stats/players/557/fnx,Luminosity,689,17740,+663,1.06,1.02
+Slovakia,MonttY,https://www.hltv.org/stats/players/9961/montty,eXtatus,522,13451,+338,1.04,1.02
+Russia,FANAT ROCKA,https://www.hltv.org/stats/players/9008/fanat-rocka,Unique,465,12150,+453,1.06,1.02
+Sweden,disco doplan,https://www.hltv.org/stats/players/9256/disco-doplan,GODSENT,1207,32000,+1094,1.05,1.02
+Russia,Forester,https://www.hltv.org/stats/players/13982/forester,Entropiq,1603,42226,+1365,1.05,1.02
+United Kingdom,AZUWU,https://www.hltv.org/stats/players/22106/azuwu,Endpoint,505,12225,+231,1.03,1.02
+Germany,kyuubii,https://www.hltv.org/stats/players/20170/kyuubii,Sangal,521,13337,+501,1.06,1.02
+Canada,FaNg,https://www.hltv.org/stats/players/17372/fang,Extra Salt,966,24538,+702,1.04,1.02
+Serbia,c0llins,https://www.hltv.org/stats/players/13026/c0llins,Partizan,727,18671,+387,1.03,1.02
+Mongolia,kabal,https://www.hltv.org/stats/players/10870/kabal,ATOX,1032,26700,+852,1.05,1.02
+Russia,n0rb3r7,https://www.hltv.org/stats/players/16612/n0rb3r7,Virtus.pro,1361,35425,+599,1.02,1.02
+Poland,mouz,https://www.hltv.org/stats/players/8323/mouz,Kinguin,1722,45760,+1738,1.06,1.02
+Thailand,qqGOD,https://www.hltv.org/stats/players/9289/qqgod,Signature,584,15180,+280,1.03,1.02
+France,Lucky,https://www.hltv.org/stats/players/13497/lucky,3DMAX,1769,45931,+1734,1.06,1.02
+Australia,MoeycQ,https://www.hltv.org/stats/players/8770/moeycq,Immunity,639,16594,+410,1.04,1.02
+France,AMANEK,https://www.hltv.org/stats/players/9616/amanek,G2,1163,31237,+1201,1.06,1.02
+China,captainMo,https://www.hltv.org/stats/players/5187/captainmo,TYLOO,870,22260,+477,1.03,1.02
+Kazakhstan,buster,https://www.hltv.org/stats/players/11942/buster,AVANGAR,1482,38764,+1780,1.07,1.02
+Russia,KaiR0N-,https://www.hltv.org/stats/players/19920/kair0n,BetBoom,541,13269,+164,1.02,1.02
+Brazil,Maluk3,https://www.hltv.org/stats/players/2529/maluk3,TeamOne,1243,32273,+1276,1.06,1.02
+United States,reck,https://www.hltv.org/stats/players/17378/reck,M80,698,17744,+463,1.04,1.02
+Russia,spaze,https://www.hltv.org/stats/players/8345/spaze,PiTER,538,14117,+89,1.01,1.02
+Bulgaria,v1c7oR,https://www.hltv.org/stats/players/7834/v1c7or,Windigo,1891,49359,+1181,1.04,1.02
+Norway,rain,https://www.hltv.org/stats/players/8183/rain,FaZe,1982,51814,+743,1.02,1.02
+Ukraine,zont1x,https://www.hltv.org/stats/players/20423/zont1x,Spirit,574,14414,+465,1.05,1.02
+Romania,Blytz,https://www.hltv.org/stats/players/12945/blytz,ECLOT,743,18947,+360,1.03,1.02
+Brazil,pesadelo,https://www.hltv.org/stats/players/17553/pesadelo,inSanitY,890,22760,+257,1.02,1.02
+Bulgaria,KalubeR,https://www.hltv.org/stats/players/15385/kaluber,Partizan,640,16982,+413,1.04,1.02
+United States,Ace,https://www.hltv.org/stats/players/13273/ace,Rise Nation,456,11866,+570,1.08,1.02
+Sweden,b0denmaster,https://www.hltv.org/stats/players/15501/b0denmaster,Alliance,1045,26737,+964,1.06,1.02
+Kazakhstan,dimasick,https://www.hltv.org/stats/players/13780/dimasick,AVANGAR,585,15322,+447,1.04,1.02
+North Macedonia,aidKiT,https://www.hltv.org/stats/players/20066/aidkit,BLUEJAYS,566,14727,+503,1.05,1.02
+Ukraine,bondik,https://www.hltv.org/stats/players/2131/bondik,HellRaisers,1601,41523,+1451,1.05,1.02
+Estonia,HS,https://www.hltv.org/stats/players/8994/hs,Nordavind,1107,29571,+324,1.02,1.02
+Belarus,ROBO,https://www.hltv.org/stats/players/3410/robo,Nemiga,667,17746,+628,1.05,1.02
+Poland,jedqr,https://www.hltv.org/stats/players/14684/jedqr,Wisla Krakow,955,25623,+787,1.05,1.02
+Finland,spargo,https://www.hltv.org/stats/players/15565/spargo,KOVA,582,15824,+462,1.04,1.02
+Denmark,sjuush,https://www.hltv.org/stats/players/14148/sjuush,HEROIC,1200,30998,+1006,1.05,1.02
+Denmark,TENZKI,https://www.hltv.org/stats/players/5287/tenzki,Nordavind,1504,39564,+1333,1.05,1.02
+Belarus,tN1R,https://www.hltv.org/stats/players/19808/tn1r,GUN5,579,13957,+405,1.04,1.02
+Romania,s0und,https://www.hltv.org/stats/players/19817/s0und,9INE,583,14665,+137,1.01,1.02
+United States,Spongey,https://www.hltv.org/stats/players/13589/spongey,Bad News Bears,864,22435,+1023,1.07,1.02
+Finland,juho,https://www.hltv.org/stats/players/7775/juho,ENCE,822,21429,-7,1.00,1.02
+United States,roca,https://www.hltv.org/stats/players/7935/roca,Splyce,660,17324,+195,1.02,1.02
+Slovakia,queztone,https://www.hltv.org/stats/players/7749/queztone,eXtatus,716,18727,+211,1.02,1.02
+Russia,flamie,https://www.hltv.org/stats/players/7594/flamie,Natus Vincere,1760,46547,+1185,1.04,1.02
+Estonia,Jyo,https://www.hltv.org/stats/players/12269/jyo,Nemiga,1467,38661,+1289,1.05,1.02
+United Kingdom,Thomas,https://www.hltv.org/stats/players/13018/thomas,Endpoint,1199,31615,+761,1.04,1.02
+Portugal,fox,https://www.hltv.org/stats/players/629/fox,Giants,1065,27813,+497,1.03,1.02
+Serbia,LETN1,https://www.hltv.org/stats/players/4216/letn1,Valiance,1116,29031,+1135,1.06,1.02
+Spain,alex,https://www.hltv.org/stats/players/8371/alex,Movistar Riders,1619,42308,+1252,1.05,1.02
+Netherlands,chrisJ,https://www.hltv.org/stats/players/2730/chrisj,MOUZ,1719,45211,+1107,1.04,1.02
+Russia,clax,https://www.hltv.org/stats/players/12004/clax,9 Pandas,912,23107,+810,1.05,1.01
+United States,cxzi,https://www.hltv.org/stats/players/17353/cxzi,Party Astronauts,921,23480,-5,1.00,1.01
+Russia,glowiing,https://www.hltv.org/stats/players/17508/glowiing,9 Pandas,1063,27069,+391,1.02,1.01
+Australia,flickz,https://www.hltv.org/stats/players/11844/flickz,Chiefs,463,11665,+352,1.05,1.01
+Germany,JDC,https://www.hltv.org/stats/players/14929/jdc,BIG,831,21170,+426,1.03,1.01
+Czech Republic,SHOCK,https://www.hltv.org/stats/players/12810/shock,SINNERS,1458,37442,+977,1.04,1.01
+United States,xCeeD,https://www.hltv.org/stats/players/13182/xceed,The Quest,451,11764,+174,1.02,1.01
+United States,n0thing,https://www.hltv.org/stats/players/203/n0thing,Cloud9,826,21279,+448,1.03,1.01
+Argentina,luchov,https://www.hltv.org/stats/players/20394/luchov,BESTIA,598,14490,+62,1.01,1.01
+Russia,Norwi,https://www.hltv.org/stats/players/19882/norwi,Aurora,974,24639,+680,1.04,1.01
+Bulgaria,mar,https://www.hltv.org/stats/players/13464/mar,FATE,774,20544,+402,1.03,1.01
+Denmark,Cabbi,https://www.hltv.org/stats/players/16723/cabbi,Sashi,1110,27905,+67,1.00,1.01
+Montenegro,Maden,https://www.hltv.org/stats/players/11777/maden,Falcons,1041,27011,+262,1.01,1.01
+Poland,Kylar,https://www.hltv.org/stats/players/19114/kylar,ENCE,1079,28285,+688,1.04,1.01
+Luxembourg,Marix,https://www.hltv.org/stats/players/20110/marix,FAVBET,472,11571,+103,1.01,1.01
+Spain,EasTor,https://www.hltv.org/stats/players/4373/eastor,Movistar Riders,503,13375,+378,1.04,1.01
+United States,mitch,https://www.hltv.org/stats/players/10470/mitch,Selfless,807,20719,+632,1.05,1.01
+Russia,Porya,https://www.hltv.org/stats/players/17293/porya,AVE,492,12627,+298,1.04,1.01
+Germany,s1n,https://www.hltv.org/stats/players/20104/s1n,M80,683,17411,+561,1.05,1.01
+Russia,Polt,https://www.hltv.org/stats/players/16946/polt,Insilio,841,21233,+698,1.05,1.01
+Sweden,Maikelele,https://www.hltv.org/stats/players/1045/maikelele,NoChance,1075,28357,+941,1.05,1.01
+Poland,szejn,https://www.hltv.org/stats/players/17113/szejn,CPH Wolves,738,19142,+236,1.02,1.01
+Australia,Noobster,https://www.hltv.org/stats/players/9680/noobster,Ground Zero,496,12790,+203,1.02,1.01
+China,Viva,https://www.hltv.org/stats/players/15419/viva,Invictus,597,15834,+480,1.05,1.01
+Denmark,Staehr,https://www.hltv.org/stats/players/20304/staehr,Astralis,652,17062,+354,1.03,1.01
+Denmark,niko,https://www.hltv.org/stats/players/10264/niko,HEROIC,1529,39698,+928,1.04,1.01
+Brazil,Tuurtle,https://www.hltv.org/stats/players/14394/tuurtle,MIBR,1243,31795,+684,1.03,1.01
+Sweden,Plopski,https://www.hltv.org/stats/players/14218/plopski,Ninjas in Pyjamas,1356,35400,+934,1.04,1.01
+Estonia,shokz,https://www.hltv.org/stats/players/16859/shokz,Movistar Riders,735,19722,+422,1.03,1.01
+Bulgaria,spyleadeR,https://www.hltv.org/stats/players/3183/spyleader,E-frag.net,900,23255,+83,1.00,1.01
+Portugal,NOPEEJ,https://www.hltv.org/stats/players/16102/nopeej,FTW,592,15253,+449,1.05,1.01
+Portugal,JUST,https://www.hltv.org/stats/players/8998/just,KOI,1277,32960,+678,1.03,1.01
+Finland,sLowi,https://www.hltv.org/stats/players/9271/slowi,HAVU,1384,37058,+458,1.02,1.01
+Denmark,Xyp9x,https://www.hltv.org/stats/players/4954/xyp9x,Astralis,2188,57242,+2187,1.06,1.01
+Sweden,Svedjehed,https://www.hltv.org/stats/players/20133/svedjehed,Lilmix,506,13703,+349,1.04,1.01
+Poland,byali,https://www.hltv.org/stats/players/5386/byali,Virtus.pro,2067,54467,+1239,1.03,1.01
+Germany,mirbit,https://www.hltv.org/stats/players/11701/mirbit,ALTERNATE aTTaX,866,23162,+926,1.06,1.01
+Sweden,Lekr0,https://www.hltv.org/stats/players/9261/lekr0,Ninjas in Pyjamas,1513,39946,+863,1.03,1.01
+Portugal,stadodo,https://www.hltv.org/stats/players/11205/stadodo,KOI,1113,28738,+930,1.05,1.01
+Denmark,Friis,https://www.hltv.org/stats/players/7/friis,SK,938,24254,+747,1.05,1.01
+United States,dazzLe,https://www.hltv.org/stats/players/11064/dazzle,eUnited,690,17971,-8,1.00,1.01
+China,ayaya,https://www.hltv.org/stats/players/10186/ayaya,Eclipse,462,11695,+102,1.01,1.01
+France,SIXER,https://www.hltv.org/stats/players/147/sixer,LDLC,1187,31294,+1265,1.07,1.01
+Lithuania,kalinka,https://www.hltv.org/stats/players/9410/kalinka,HellRaisers,855,22891,+157,1.01,1.01
+Denmark,es3tag,https://www.hltv.org/stats/players/8611/es3tag,HEROIC,1422,37070,+670,1.03,1.01
+Sweden,grux,https://www.hltv.org/stats/players/15096/grux,Savage,496,13236,+230,1.03,1.01
+Belgium,to1nou,https://www.hltv.org/stats/players/7982/to1nou,LDLC,850,22377,+520,1.04,1.01
+Australia,HUGH,https://www.hltv.org/stats/players/12086/hugh,Chiefs,855,22111,+429,1.03,1.01
+Brazil,snow,https://www.hltv.org/stats/players/20171/snow,paiN,476,11184,+242,1.03,1.01
+Turkey,DESPE,https://www.hltv.org/stats/players/7980/despe,Space Soldiers,468,12127,+320,1.04,1.01
+France,kioShiMa,https://www.hltv.org/stats/players/4959/kioshima,Envy,1493,39227,+1286,1.05,1.01
+United States,FugLy,https://www.hltv.org/stats/players/8522/fugly,NRG,1083,28153,+621,1.03,1.01
+Australia,emagine,https://www.hltv.org/stats/players/8744/emagine,ORDER,751,18931,+487,1.04,1.01
+Poland,Goofy,https://www.hltv.org/stats/players/15428/goofy,Wisla Krakow,1596,42353,+325,1.01,1.01
+Canada,J0LZ,https://www.hltv.org/stats/players/17510/j0lz,Strife,633,16428,+133,1.01,1.01
+Sweden,hampus,https://www.hltv.org/stats/players/9766/hampus,Ninjas in Pyjamas,1674,43700,+128,1.00,1.01
+Poland,GruBy,https://www.hltv.org/stats/players/8570/gruby,AGO,1823,48436,+454,1.01,1.01
+Brazil,delboNi,https://www.hltv.org/stats/players/11213/delboni,Imperial,707,18168,+301,1.02,1.00
+Poland,reatz,https://www.hltv.org/stats/players/8242/reatz,PRIDE,1579,42452,+659,1.02,1.00
+Brazil,yel,https://www.hltv.org/stats/players/10560/yel,Luminosity,1047,27193,+872,1.05,1.00
+Australia,DickStacy,https://www.hltv.org/stats/players/12876/dickstacy,Grayhound,630,15858,+312,1.03,1.00
+Poland,MINISE,https://www.hltv.org/stats/players/2826/minise,PACT,1873,49950,+583,1.02,1.00
+United States,Stewie2K,https://www.hltv.org/stats/players/8797/stewie2k,Cloud9,1559,40586,+245,1.01,1.00
+Russia,Raijin,https://www.hltv.org/stats/players/20207/raijin,K23,500,13414,+198,1.02,1.00
+North Macedonia,NENO,https://www.hltv.org/stats/players/2299/neno,Binary Dragons,719,18580,+455,1.04,1.00
+Ukraine,Edward,https://www.hltv.org/stats/players/483/edward,Natus Vincere,1495,39373,+773,1.03,1.00
+Brazil,Lcm,https://www.hltv.org/stats/players/20519/lcm,Solid,516,12539,+541,1.07,1.00
+Russia,waterfaLLZ,https://www.hltv.org/stats/players/8727/waterfallz,Quantum Bellator Fire,919,24331,+311,1.02,1.00
+France,NBK-,https://www.hltv.org/stats/players/7168/nbk,Envy,2418,62922,+421,1.01,1.00
+Denmark,b0RUP,https://www.hltv.org/stats/players/9896/b0rup,Tricked,1765,46928,+293,1.01,1.00
+Slovakia,Zero,https://www.hltv.org/stats/players/8413/zero,GamerLegion,1237,32902,+897,1.04,1.00
+Ukraine,OWNER,https://www.hltv.org/stats/players/20422/owner,B8,467,11900,+122,1.02,1.00
+United States,Relyks,https://www.hltv.org/stats/players/8517/relyks,eUnited,832,21258,+161,1.01,1.00
+Canada,steel,https://www.hltv.org/stats/players/7253/steel,Chaos,690,17905,+42,1.00,1.00
+Spain,sausol,https://www.hltv.org/stats/players/18749/sausol,MAD Lions,533,13928,+143,1.02,1.00
+Denmark,glace,https://www.hltv.org/stats/players/1883/glace,North Academy,589,15307,+366,1.04,1.00
+United States,Oderus,https://www.hltv.org/stats/players/11238/oderus,Spacestation,473,12356,-52,0.99,1.00
+Russia,almazer,https://www.hltv.org/stats/players/11654/almazer,FORZE,1363,36546,+621,1.03,1.00
+Ireland,arTisT,https://www.hltv.org/stats/players/20336/artist,Verdant,520,13091,+125,1.01,1.00
+Russia,1uke,https://www.hltv.org/stats/players/8724/1uke,Spirit Academy,623,16179,+223,1.02,1.00
+United States,Snakes,https://www.hltv.org/stats/players/13229/snakes,Strife,562,14418,+221,1.02,1.00
+Denmark,Nodios,https://www.hltv.org/stats/players/8891/nodios,Copenhagen Flames,1271,32858,+590,1.03,1.00
+Brazil,tatazin,https://www.hltv.org/stats/players/10840/tatazin,paiN,978,25176,+949,1.06,1.00
+Czech Republic,nbqq,https://www.hltv.org/stats/players/19594/nbqq,ECLOT,808,20255,+176,1.01,1.00
+Czech Republic,capseN,https://www.hltv.org/stats/players/16435/capsen,ECLOT,501,13284,+450,1.05,1.00
+Ukraine,kenzor,https://www.hltv.org/stats/players/11515/kenzor,pro100,605,15796,+57,1.01,1.00
+United States,hazed,https://www.hltv.org/stats/players/8347/hazed,CLG,736,19138,-81,0.99,1.00
+Australia,ap0c,https://www.hltv.org/stats/players/2007/ap0c,AVANT,970,24817,+50,1.00,1.00
+Russia,speed4k,https://www.hltv.org/stats/players/13155/speed4k,DreamEaters,840,22566,+527,1.04,1.00
+Singapore,ImpressioN,https://www.hltv.org/stats/players/9339/impression,BOOT-d[S],684,17721,+131,1.01,1.00
+China,xiaosaGe,https://www.hltv.org/stats/players/11574/xiaosage,5POWER,903,23613,-12,1.00,1.00
+Brazil,iDk,https://www.hltv.org/stats/players/10818/idk,TeamOne,1148,29376,+377,1.02,1.00
+Korea,zeff,https://www.hltv.org/stats/players/4637/zeff,MVP PK,482,12229,+54,1.01,1.00
+United States,fl0m,https://www.hltv.org/stats/players/8503/fl0m,Mythic,927,23779,+313,1.02,1.00
+Latvia,R0b3n,https://www.hltv.org/stats/players/14205/r0b3n,Unique,530,13950,+208,1.02,1.00
+Russia,Krad,https://www.hltv.org/stats/players/12027/krad,Entropiq,1696,44431,+159,1.01,1.00
+Denmark,Anlelele,https://www.hltv.org/stats/players/20417/anlelele,ECSTATIC,554,14000,+213,1.02,1.00
+Thailand,RoLEX,https://www.hltv.org/stats/players/10663/rolex,Signature,497,12715,+25,1.00,1.00
+Norway,cromen,https://www.hltv.org/stats/players/10397/cromen,Nordavind,653,17335,+67,1.01,1.00
+United States,adreN,https://www.hltv.org/stats/players/7433/adren,Liquid,697,18241,+380,1.03,1.00
+Portugal,obj,https://www.hltv.org/stats/players/9416/obj,OFFSET,453,11851,+326,1.04,1.00
+Brazil,zqkS,https://www.hltv.org/stats/players/7383/zqks,Imperial,927,23891,+751,1.05,1.00
+Sweden,MODDII,https://www.hltv.org/stats/players/545/moddii,HEROIC,1170,30550,+401,1.02,1.00
+Serbia,nEMANHA,https://www.hltv.org/stats/players/8311/nemanha,Zero Tenacity,755,18258,-88,0.99,1.00
+Sweden,pyth,https://www.hltv.org/stats/players/7527/pyth,Ninjas in Pyjamas,758,19846,-11,1.00,1.00
+United States,cam,https://www.hltv.org/stats/players/13186/cam,Singularity,544,13974,+169,1.02,1.00
+France,apEX,https://www.hltv.org/stats/players/7322/apex,Vitality,2320,60431,-81,1.00,1.00
+Denmark,Altekz,https://www.hltv.org/stats/players/16705/altekz,Astralis Talent,786,19655,+308,1.02,1.00
+France,Djoko,https://www.hltv.org/stats/players/19738/djoko,3DMAX,1120,28547,-135,0.99,1.00
+Sweden,HEAP,https://www.hltv.org/stats/players/16029/heap,EYEBALLERS,728,18276,+123,1.01,1.00
+Sweden,PlesseN,https://www.hltv.org/stats/players/9811/plessen,Alliance,1718,45022,-335,0.99,1.00
+Finland,xseveN,https://www.hltv.org/stats/players/7248/xseven,HAVU,1539,40868,+411,1.02,1.00
+United States,Nifty,https://www.hltv.org/stats/players/9069/nifty,Renegades,963,25020,+139,1.01,1.00
+Russia,fenvicious,https://www.hltv.org/stats/players/10590/fenvicious,Unique,751,19647,+45,1.00,1.00
+Ukraine,DemQQ,https://www.hltv.org/stats/players/19733/demqq,Monte,1060,26940,+480,1.03,1.00
+Turkey,xfl0ud,https://www.hltv.org/stats/players/19187/xfl0ud,Sangal,655,16485,+247,1.02,1.00
+Ukraine,jR,https://www.hltv.org/stats/players/8786/jr,Vega Squadron,943,25172,+368,1.02,1.00
+Sweden,susp,https://www.hltv.org/stats/players/21163/susp,Wildcard,485,11815,+91,1.01,1.00
+Czech Republic,Pechyn,https://www.hltv.org/stats/players/12612/pechyn,UNiTY,534,13809,+72,1.01,1.00
+United States,vice,https://www.hltv.org/stats/players/9260/vice,Rogue,493,12707,+128,1.01,1.00
+United States,chop,https://www.hltv.org/stats/players/19705/chop,RBG,823,21258,+210,1.01,1.00
+Denmark,jabbi,https://www.hltv.org/stats/players/17956/jabbi,Astralis,1083,28473,+351,1.02,1.00
+Sweden,Bååten,https://www.hltv.org/stats/players/10463/bten,x6tence Galaxy,743,19804,+20,1.00,0.99
+Belarus,mds,https://www.hltv.org/stats/players/11926/mds,Nemiga,1322,35410,+479,1.02,0.99
+Poland,F1KU,https://www.hltv.org/stats/players/19044/f1ku,OG,964,25485,-30,1.00,0.99
+Sweden,freddieb,https://www.hltv.org/stats/players/9257/freddieb,Epsilon,1135,30119,+180,1.01,0.99
+Canada,SEMPHIS,https://www.hltv.org/stats/players/1915/semphis,Splyce,848,21936,-33,1.00,0.99
+Uruguay,max,https://www.hltv.org/stats/players/12092/max,9z,947,24166,+288,1.02,0.99
+Denmark,Basso,https://www.hltv.org/stats/players/10443/basso,Copenhagen Flames,633,16510,+211,1.02,0.99
+Poland,Vegi,https://www.hltv.org/stats/players/15204/vegi,Virtus.pro,1153,30606,-125,0.99,0.99
+Russia,magixx,https://www.hltv.org/stats/players/18317/magixx,Spirit,963,24748,+584,1.04,0.99
+Canada,gMd,https://www.hltv.org/stats/players/12710/gmd,Rogue,464,12098,-47,0.99,0.99
+United Kingdom,ALEX,https://www.hltv.org/stats/players/8184/alex,LDLC,1162,30750,-372,0.98,0.99
+Canada,freshie,https://www.hltv.org/stats/players/18706/freshie,BOSS,527,12949,-4,1.00,0.99
+United States,neptune,https://www.hltv.org/stats/players/12101/neptune,Ghost,498,13218,-23,1.00,0.99
+Ukraine,markeloff,https://www.hltv.org/stats/players/338/markeloff,FlipSid3,1149,29779,+478,1.02,0.99
+Australia,rbz,https://www.hltv.org/stats/players/9103/rbz,Paradox,647,16903,+138,1.01,0.99
+Sweden,BENDJI,https://www.hltv.org/stats/players/8396/bendji,Singularity,878,23318,+137,1.01,0.99
+United States,stamina,https://www.hltv.org/stats/players/16893/stamina,Strife,465,12053,-9,1.00,0.99
+Poland,innocent,https://www.hltv.org/stats/players/3669/innocent,Anonymo,2045,53418,+138,1.00,0.99
+Poland,SZPERO,https://www.hltv.org/stats/players/973/szpero,Wisla Krakow,2204,58317,+591,1.02,0.99
+Brazil,abr,https://www.hltv.org/stats/players/17028/abr,Meta,530,13569,+285,1.03,0.99
+Brazil,realz1n,https://www.hltv.org/stats/players/16769/realz1n,Vikings KR,972,24850,+345,1.02,0.99
+Estonia,supra,https://www.hltv.org/stats/players/16415/supra,Gambit Youngsters,667,17718,-3,1.00,0.99
+Romania,jaxi,https://www.hltv.org/stats/players/4726/jaxi,Nexus,472,12125,+183,1.02,0.99
+United States,wiz,https://www.hltv.org/stats/players/17930/wiz,RBG,767,19832,+358,1.03,0.99
+Sweden,Jackinho,https://www.hltv.org/stats/players/13669/jackinho,Metizport,540,13245,+123,1.01,0.99
+Sweden,BARBARR,https://www.hltv.org/stats/players/44/barbarr,Epsilon,876,23180,-20,1.00,0.99
+Australia,Liki,https://www.hltv.org/stats/players/19190/liki,Looking For Org,510,12897,+213,1.03,0.99
+Argentina,1962,https://www.hltv.org/stats/players/12094/1962,Isurus,720,18523,-295,0.98,0.99
+Romania,adamS,https://www.hltv.org/stats/players/19698/adams,KOI,632,16280,+118,1.01,0.99
+Portugal,arrozdoce,https://www.hltv.org/stats/players/20465/arrozdoce,SAW,588,14619,-15,1.00,0.99
+Australia,void,https://www.hltv.org/stats/players/14954/void,Ground Zero,495,12555,+78,1.01,0.99
+Australia,apocdud,https://www.hltv.org/stats/players/12872/apocdud,VERTEX,924,23459,+56,1.00,0.99
+Sweden,kreaz,https://www.hltv.org/stats/players/9911/kreaz,ECLOT,1014,25911,+342,1.02,0.99
+Czech Republic,ZEDKO,https://www.hltv.org/stats/players/8488/zedko,Sampi,1865,47930,+145,1.00,0.99
+Spain,mopoz,https://www.hltv.org/stats/players/9254/mopoz,Movistar Riders,1503,39210,-368,0.99,0.99
+Mongolia,Tsogoo,https://www.hltv.org/stats/players/9245/tsogoo,The MongolZ,542,13768,-2,1.00,0.99
+Denmark,Frøslev,https://www.hltv.org/stats/players/11258/frslev,MASONIC,734,19168,+96,1.01,0.99
+United States,shane,https://www.hltv.org/stats/players/19709/shane,timbermen,509,12410,+44,1.01,0.99
+Czech Republic,manguss,https://www.hltv.org/stats/players/16432/manguss,Sampi,750,18747,+193,1.02,0.99
+Ukraine,ANGE1,https://www.hltv.org/stats/players/339/ange1,HellRaisers,1728,45027,-685,0.98,0.99
+United States,kaboose,https://www.hltv.org/stats/players/10372/kaboose,Selfless,549,14235,-305,0.97,0.99
+United States,Drone,https://www.hltv.org/stats/players/9130/drone,Splyce,454,11841,-168,0.98,0.99
+Greece,awzek,https://www.hltv.org/stats/players/14061/awzek,ALTERNATE aTTaX,748,18281,-58,1.00,0.99
+Russia,facecrack,https://www.hltv.org/stats/players/8726/facecrack,FORZE,1806,48022,-817,0.98,0.99
+Sweden,robiin,https://www.hltv.org/stats/players/7700/robiin,Endpoint,1822,47666,-189,0.99,0.99
+Russia,Dimaoneshot,https://www.hltv.org/stats/players/8125/dimaoneshot,Spirit,1328,34927,-575,0.98,0.99
+Azerbaijan,sugaR,https://www.hltv.org/stats/players/18510/sugar,Insilio,569,14368,+25,1.00,0.99
+Russia,s1ren,https://www.hltv.org/stats/players/18506/s1ren,BetBoom,553,13506,+186,1.02,0.99
+United Kingdom,dephh,https://www.hltv.org/stats/players/7873/dephh,Complexity,790,20560,-336,0.98,0.99
+United States,vanity,https://www.hltv.org/stats/players/12089/vanity,Chaos,609,15688,+80,1.01,0.99
+Russia,Perfecto,https://www.hltv.org/stats/players/16947/perfecto,Natus Vincere,971,25281,+704,1.05,0.99
+Hungary,kory,https://www.hltv.org/stats/players/16495/kory,Sangal,853,22287,-58,1.00,0.99
+Brazil,arT,https://www.hltv.org/stats/players/12521/art,FURIA,1348,34131,-363,0.98,0.99
+Denmark,gade,https://www.hltv.org/stats/players/8875/gade,North,958,25224,-121,0.99,0.99
+United Kingdom,CYPHER,https://www.hltv.org/stats/players/18571/cypher,BLEED,854,21764,-366,0.98,0.99
+Romania,volt,https://www.hltv.org/stats/players/20358/volt,GamerLegion,634,16310,+53,1.00,0.99
+Mongolia,Techno,https://www.hltv.org/stats/players/20275/techno,The MongolZ,551,13889,-153,0.98,0.99
+Finland,SAGGERTON,https://www.hltv.org/stats/players/7529/saggerton,iGame.com,540,14097,-231,0.98,0.99
+Poland,bnox,https://www.hltv.org/stats/players/20309/bnox,Permitta,941,23506,-57,1.00,0.99
+Kazakhstan,fitch,https://www.hltv.org/stats/players/10052/fitch,AVANGAR,577,15287,-228,0.98,0.99
+United States,EMIYA,https://www.hltv.org/stats/players/14495/emiya,Rocket,611,15429,+77,1.01,0.99
+Sweden,bq,https://www.hltv.org/stats/players/17936/bq,Lilmix,486,12844,-158,0.98,0.99
+Australia,dangeR,https://www.hltv.org/stats/players/12875/danger,Rooster,478,11694,+76,1.01,0.99
+Portugal,MUTiRiS,https://www.hltv.org/stats/players/630/mutiris,SAW,1731,44456,+101,1.00,0.99
+Denmark,Lukki,https://www.hltv.org/stats/players/8871/lukki,Tricked,895,23495,-18,1.00,0.99
+United States,nitr0,https://www.hltv.org/stats/players/7687/nitr0,Liquid,1598,41555,+168,1.01,0.99
+Brazil,naitte,https://www.hltv.org/stats/players/17181/naitte,ODDIK,713,17538,-369,0.97,0.99
+Brazil,VINI,https://www.hltv.org/stats/players/12822/vini,Imperial,1387,35026,-93,1.00,0.99
+Sweden,adamb,https://www.hltv.org/stats/players/20878/adamb,Metizport,575,14042,-51,0.99,0.99
+Poland,morelz,https://www.hltv.org/stats/players/8324/morelz,PRIDE,1711,44644,-487,0.98,0.98
+Bosnia and Herzegovina,simke,https://www.hltv.org/stats/players/21784/simke,Zero Tenacity,732,17641,-237,0.98,0.98
+France,Ex3rcice,https://www.hltv.org/stats/players/19739/ex3rcice,3DMAX,943,23920,+57,1.00,0.98
+Australia,J1rah,https://www.hltv.org/stats/players/12593/j1rah,ORDER,803,20826,-29,1.00,0.98
+Canada,DAVEY,https://www.hltv.org/stats/players/8508/davey,Splyce,801,20713,-294,0.98,0.98
+France,bodyy,https://www.hltv.org/stats/players/8374/bodyy,fnatic,1766,45949,-319,0.99,0.98
+United States,freakazoid,https://www.hltv.org/stats/players/7808/freakazoid,Mythic,1128,28457,-376,0.98,0.98
+Sweden,Xizt,https://www.hltv.org/stats/players/884/xizt,Ninjas in Pyjamas,1667,42881,+511,1.02,0.98
+United States,Cryptic,https://www.hltv.org/stats/players/15176/cryptic,BOSS,524,12880,-266,0.97,0.98
+Russia,JIaYm,https://www.hltv.org/stats/players/19232/jiaym,HellRaisers,631,16938,-406,0.97,0.98
+Slovakia,STYKO,https://www.hltv.org/stats/players/6904/styko,Apeks,2019,52914,+53,1.00,0.98
+Norway,RUBINO,https://www.hltv.org/stats/players/1485/rubino,Dignitas,998,26140,-170,0.99,0.98
+United States,cJ dA K1nG,https://www.hltv.org/stats/players/9571/cj-da-k1ng,Nouns,732,18004,+29,1.00,0.98
+Norway,truth,https://www.hltv.org/stats/players/9298/truth,Apeks,564,15015,-104,0.99,0.98
+South Africa,MisteM,https://www.hltv.org/stats/players/16811/mistem,ATK,722,18656,-284,0.98,0.98
+Finland,myltsi,https://www.hltv.org/stats/players/21233/myltsi,ENCE Academy,461,11944,-150,0.98,0.98
+Belgium,Stev0se,https://www.hltv.org/stats/players/12304/stev0se,EC Brugge,511,13529,-140,0.99,0.98
+Portugal,pr,https://www.hltv.org/stats/players/15885/pr,OFFSET,515,13149,-237,0.97,0.98
+South Africa,Fadey,https://www.hltv.org/stats/players/10611/fadey,ATK,850,21864,-431,0.97,0.98
+United States,ryann,https://www.hltv.org/stats/players/12088/ryann,Singularity,697,17857,-269,0.98,0.98
+Russia,Dosia,https://www.hltv.org/stats/players/735/dosia,Gambit,1468,38434,+109,1.00,0.98
+Kazakhstan,AdreN,https://www.hltv.org/stats/players/334/adren,Gambit,1770,46542,-254,0.99,0.98
+Spain,DeathZz,https://www.hltv.org/stats/players/13093/deathzz,Movistar Riders,551,14730,+18,1.00,0.98
+Finland,uli,https://www.hltv.org/stats/players/9818/uli,HAVU,735,18964,+7,1.00,0.98
+Germany,PerX,https://www.hltv.org/stats/players/12290/perx,ALTERNATE aTTaX,672,16537,+157,1.01,0.98
+Lithuania,Bymas,https://www.hltv.org/stats/players/19015/bymas,MOUZ,504,13193,+184,1.02,0.98
+Hungary,DeadFox,https://www.hltv.org/stats/players/8716/deadfox,HellRaisers,807,21060,-54,1.00,0.98
+Montenegro,Cjoffo,https://www.hltv.org/stats/players/21302/cjoffo,Zero Tenacity,729,17542,+112,1.01,0.98
+Russia,Jerry,https://www.hltv.org/stats/players/13157/jerry,FORZE,1988,53025,-198,0.99,0.98
+Denmark,Daffu,https://www.hltv.org/stats/players/11996/daffu,Lyngby Vikings,717,19219,+103,1.01,0.98
+Denmark,br0,https://www.hltv.org/stats/players/16717/br0,Astralis Talent,553,14126,-1,1.00,0.98
+Brazil,dzt,https://www.hltv.org/stats/players/10570/dzt,Imperial,784,19952,-186,0.99,0.98
+Argentina,Noktse,https://www.hltv.org/stats/players/2161/noktse,BESTIA,1304,32934,+118,1.01,0.98
+United States,anger,https://www.hltv.org/stats/players/7438/anger,Mythic,682,17700,-229,0.98,0.98
+Australia,AZR,https://www.hltv.org/stats/players/8082/azr,Renegades,1175,30587,-341,0.98,0.98
+United States,snav,https://www.hltv.org/stats/players/19711/snav,timbermen,540,13152,-6,1.00,0.98
+France,misutaaa,https://www.hltv.org/stats/players/14176/misutaaa,9INE,866,22203,-276,0.98,0.98
+Germany,Spiidi,https://www.hltv.org/stats/players/7499/spiidi,Sprout,2413,63834,+133,1.00,0.98
+Brazil,matios,https://www.hltv.org/stats/players/20897/matios,ODDIK,598,14514,-116,0.99,0.98
+Romania,sXe,https://www.hltv.org/stats/players/10436/sxe,Nexus,605,15708,-157,0.99,0.98
+Kazakhstan,ice,https://www.hltv.org/stats/players/17792/ice,100PG,530,14267,-248,0.97,0.98
+Australia,Llamas,https://www.hltv.org/stats/players/16529/llamas,Ground Zero,460,11797,-35,1.00,0.98
+United Kingdom,Girafffe,https://www.hltv.org/stats/players/20340/girafffe,Verdant,503,12620,-200,0.98,0.98
+Argentina,deco,https://www.hltv.org/stats/players/17039/deco,Isurus,774,19852,-87,0.99,0.98
+Romania,ragga,https://www.hltv.org/stats/players/17116/ragga,Nexus,977,25357,-467,0.97,0.98
+Denmark,PERCY,https://www.hltv.org/stats/players/5061/percy,Secret,1044,27719,-353,0.98,0.98
+United States,RUSH,https://www.hltv.org/stats/players/7805/rush,Cloud9,1710,44048,-265,0.99,0.98
+Bulgaria,bubble,https://www.hltv.org/stats/players/2799/bubble,Windigo,2398,63030,+77,1.00,0.98
+France,JACKZ,https://www.hltv.org/stats/players/284/jackz,G2,1305,34325,-402,0.98,0.98
+Australia,BURNRUOk,https://www.hltv.org/stats/players/9636/burnruok,Ground Zero,860,22168,-518,0.97,0.98
+Brazil,jnt,https://www.hltv.org/stats/players/11747/jnt,Sharks,768,19985,+209,1.02,0.98
+Brazil,BIT,https://www.hltv.org/stats/players/555/bit,TeamOne,737,19057,+50,1.00,0.98
+Russia,FinigaN,https://www.hltv.org/stats/players/17305/finigan,Espada,701,18232,+127,1.01,0.98
+United States,d4rty,https://www.hltv.org/stats/players/20564/d4rty,BOSS,498,12183,-97,0.99,0.98
+Ukraine,Sergiz,https://www.hltv.org/stats/players/12244/sergiz,CR4ZY,465,12322,+98,1.01,0.98
+Denmark,notaN,https://www.hltv.org/stats/players/9903/notan,MASONIC,648,17222,-112,0.99,0.98
+Brazil,leo_drk,https://www.hltv.org/stats/players/11329/leo-drk,Hype,759,19054,-352,0.97,0.98
+Norway,Radifaction,https://www.hltv.org/stats/players/13148/radifaction,Secret,513,13736,-179,0.98,0.98
+Poland,siuhy,https://www.hltv.org/stats/players/16820/siuhy,MOUZ,883,22891,-402,0.97,0.98
+Ukraine,synyx,https://www.hltv.org/stats/players/20402/synyx,ARCRED,517,12942,-137,0.98,0.98
+Denmark,larsen,https://www.hltv.org/stats/players/7965/larsen,Tricked,650,17146,-45,1.00,0.97
+Poland,maaryy,https://www.hltv.org/stats/players/20284/maaryy,Permitta,830,20394,+90,1.01,0.97
+France,RpK,https://www.hltv.org/stats/players/7169/rpk,Vitality,1503,39220,-608,0.98,0.97
+Germany,k1to,https://www.hltv.org/stats/players/12781/k1to,BIG,1620,42804,-1012,0.97,0.97
+Brazil,prt,https://www.hltv.org/stats/players/10827/prt,TeamOne,794,20670,-176,0.99,0.97
+Poland,kRaSnaL,https://www.hltv.org/stats/players/20282/krasnal,Monte,770,19479,-232,0.98,0.97
+Portugal,roman,https://www.hltv.org/stats/players/2241/roman,SAW,1638,41988,-407,0.99,0.97
+Ukraine,Smash,https://www.hltv.org/stats/players/18240/smash,FAVBET,505,13090,-201,0.98,0.97
+Canada,djay,https://www.hltv.org/stats/players/12102/djay,Party Astronauts,1081,27852,-310,0.98,0.97
+Germany,prosus,https://www.hltv.org/stats/players/19284/prosus,BIG Academy,747,19242,-414,0.97,0.97
+Brazil,f4stzin,https://www.hltv.org/stats/players/18140/f4stzin,inSanitY,582,14889,-362,0.97,0.97
+Bulgaria,blocker,https://www.hltv.org/stats/players/10697/blocker,Windigo,906,24070,-559,0.97,0.97
+Poland,mono,https://www.hltv.org/stats/players/9916/mono,x-kom,665,17776,-24,1.00,0.97
+Sweden,RuStY,https://www.hltv.org/stats/players/10784/rusty,GamerLegion,1677,45021,-307,0.99,0.97
+Poland,Enzo,https://www.hltv.org/stats/players/15901/enzo,los kogutos,548,14680,-190,0.98,0.97
+Argentina,reversive,https://www.hltv.org/stats/players/9221/reversive,KRÜ,869,22174,-268,0.98,0.97
+Denmark,Buzz,https://www.hltv.org/stats/players/20941/buzz,Astralis,520,13557,-177,0.98,0.97
+Denmark,kraghen,https://www.hltv.org/stats/players/20300/kraghen,Gaimin Gladiators,797,20106,-355,0.97,0.97
+Canada,Jonji,https://www.hltv.org/stats/players/12113/jonji,Bad News Bears,1213,31158,-897,0.96,0.97
+Russia,jmqa,https://www.hltv.org/stats/players/8368/jmqa,Quantum Bellator Fire,924,24220,-284,0.98,0.97
+China,DeStRoYeR,https://www.hltv.org/stats/players/10192/destroyer,Invictus,600,15845,-235,0.98,0.97
+United States,seb,https://www.hltv.org/stats/players/3886/seb,Ghost,603,15586,-224,0.98,0.97
+Serbia,Kind0,https://www.hltv.org/stats/players/20252/kind0,4glory,469,12274,-111,0.99,0.97
+Poland,leman,https://www.hltv.org/stats/players/8539/leman,AGO,580,15648,-202,0.98,0.97
+Russia,kUcheR,https://www.hltv.org/stats/players/302/kucher,HellRaisers,852,22314,-145,0.99,0.97
+Romania,smekk-,https://www.hltv.org/stats/players/19167/smekk,Nexus,477,12780,-483,0.95,0.97
+Latvia,krii,https://www.hltv.org/stats/players/9291/krii,EPG,535,13988,-195,0.98,0.97
+Brazil,ALLE,https://www.hltv.org/stats/players/11922/alle,Solid,886,22224,-216,0.99,0.97
+Brazil,MaLLby,https://www.hltv.org/stats/players/17216/mallby,Hype,458,11846,-80,0.99,0.97
+Thailand,stk,https://www.hltv.org/stats/players/12129/stk,Beyond,591,15136,-223,0.98,0.97
+Denmark,raalz,https://www.hltv.org/stats/players/2898/raalz,Sprout,1593,42014,-572,0.98,0.97
+Bulgaria,SPELLAN,https://www.hltv.org/stats/players/11217/spellan,SKADE,1615,41866,-428,0.98,0.97
+Spain,SOKER,https://www.hltv.org/stats/players/7388/soker,Movistar Riders,651,17048,-439,0.96,0.97
+Denmark,gla1ve,https://www.hltv.org/stats/players/7412/gla1ve,Astralis,1985,51707,-497,0.99,0.97
+Poland,oskarish,https://www.hltv.org/stats/players/8321/oskarish,x-kom,1141,30578,-449,0.98,0.97
+Kazakhstan,Lack1,https://www.hltv.org/stats/players/13240/lack1,Aurora,1466,37872,-991,0.96,0.97
+Denmark,kwezz,https://www.hltv.org/stats/players/13170/kwezz,Sashi,1311,33355,-295,0.99,0.97
+Poland,Furlan,https://www.hltv.org/stats/players/8327/furlan,AGO,2389,62947,-1573,0.96,0.97
+United States,viz,https://www.hltv.org/stats/players/18761/viz,Party Astronauts,540,13961,-152,0.98,0.97
+Russia,NickelBack,https://www.hltv.org/stats/players/11498/nickelback,Entropiq,1698,45254,-566,0.98,0.97
+Brazil,ponter,https://www.hltv.org/stats/players/16835/ponter,ODDIK,477,12013,-272,0.97,0.97
+Denmark,Queenix,https://www.hltv.org/stats/players/13749/queenix,Gaimin Gladiators,1032,26454,-306,0.98,0.97
+Poland,b1elany,https://www.hltv.org/stats/players/20637/b1elany,Illuminar,453,11513,-241,0.97,0.97
+France,DEVIL,https://www.hltv.org/stats/players/8569/devil,LDLC,638,16633,-305,0.97,0.97
+Denmark,PR1mE,https://www.hltv.org/stats/players/19038/pr1me,Tricked,781,20703,-381,0.97,0.97
+Finland,KHRN,https://www.hltv.org/stats/players/971/khrn,SJ,935,24443,-245,0.98,0.97
+Brazil,w1,https://www.hltv.org/stats/players/16831/w1,E-Xolos LAZER,537,13879,-257,0.97,0.97
+Thailand,MAIROLLS,https://www.hltv.org/stats/players/10666/mairolls,Alpha Red,506,13087,-242,0.97,0.97
+Finland,doto,https://www.hltv.org/stats/players/9819/doto,HAVU,846,22530,-524,0.97,0.97
+Russia,Boombl4,https://www.hltv.org/stats/players/11840/boombl4,Cloud9,1409,36734,-873,0.97,0.97
+United States,reltuC,https://www.hltv.org/stats/players/8137/reltuc,CLG,865,22664,-74,1.00,0.97
+North Macedonia,kyxsan,https://www.hltv.org/stats/players/19677/kyxsan,HEROIC,889,22802,-426,0.97,0.97
+United Kingdom,Surreal,https://www.hltv.org/stats/players/9019/surreal,Endpoint,2108,54302,-873,0.98,0.97
+Denmark,Kristou,https://www.hltv.org/stats/players/10961/kristou,AGF,824,21416,-431,0.97,0.96
+Brazil,NEKIZ,https://www.hltv.org/stats/players/9482/nekiz,Legacy,1379,35471,-817,0.97,0.96
+Poland,Hyper,https://www.hltv.org/stats/players/7368/hyper,AGG,646,16949,-167,0.99,0.96
+Poland,Demho,https://www.hltv.org/stats/players/18070/demho,Anonymo,683,17315,-243,0.98,0.96
+Brazil,LUCAS1,https://www.hltv.org/stats/players/8566/lucas1,Immortals,986,25417,-492,0.97,0.96
+Hungary,Aaron,https://www.hltv.org/stats/players/13317/aaron,PERA,553,13633,-463,0.95,0.96
+Denmark,Tauson,https://www.hltv.org/stats/players/20301/tauson,ECSTATIC,603,15575,-326,0.97,0.96
+Finland,SADDYX,https://www.hltv.org/stats/players/15563/saddyx,SJ,653,17513,-341,0.97,0.96
+Switzerland,Maniac,https://www.hltv.org/stats/players/823/maniac,LDLC,837,22049,-388,0.97,0.96
+Poland,kaper,https://www.hltv.org/stats/players/14221/kaper,AGO,536,14240,-168,0.98,0.96
+Ukraine,cptkurtka023,https://www.hltv.org/stats/players/16147/cptkurtka023,B8,626,15156,-555,0.95,0.96
+Kosovo,sinnopsyy,https://www.hltv.org/stats/players/18120/sinnopsyy,Bad News Eagles,1120,29032,-1138,0.95,0.96
+Hungary,bodito,https://www.hltv.org/stats/players/8733/bodito,Budapest Five,555,14655,-472,0.95,0.96
+Sweden,Peppzor,https://www.hltv.org/stats/players/15949/peppzor,EYEBALLERS,822,20853,-583,0.96,0.96
+Germany,skyye,https://www.hltv.org/stats/players/20169/skyye,BIG Academy,486,12327,-249,0.97,0.96
+Brazil,DANVIET,https://www.hltv.org/stats/players/16775/danviet,The Union,508,13229,-502,0.95,0.96
+Denmark,maeVe,https://www.hltv.org/stats/players/8150/maeve,Tricked,487,12606,-131,0.98,0.96
+Sweden,bobeksde,https://www.hltv.org/stats/players/21159/bobeksde,Johnny Speeds,618,15971,-614,0.95,0.96
+Brazil,r4ul,https://www.hltv.org/stats/players/14011/r4ul,Corinthians,461,12163,-203,0.97,0.96
+Brazil,WOOD7,https://www.hltv.org/stats/players/14390/wood7,ODDIK,1081,26904,+179,1.01,0.96
+Ukraine,starix,https://www.hltv.org/stats/players/303/starix,Natus Vincere,640,16850,-311,0.97,0.96
+France,SmithZz,https://www.hltv.org/stats/players/7170/smithzz,G2,1179,30571,-619,0.97,0.96
+Denmark,MistR,https://www.hltv.org/stats/players/21199/mistr,Sashi,729,17982,-442,0.96,0.96
+Poland,phr,https://www.hltv.org/stats/players/11891/phr,Illuminar,1582,41573,-617,0.98,0.96
+United States,JazzPimp,https://www.hltv.org/stats/players/11039/jazzpimp,Recon 5,496,13025,-362,0.96,0.96
+France,xms,https://www.hltv.org/stats/players/9545/xms,Envy,710,18762,-627,0.95,0.96
+Sweden,isak,https://www.hltv.org/stats/players/17937/isak,GamerLegion,935,24369,-480,0.97,0.96
+Brazil,SHOOWTiME,https://www.hltv.org/stats/players/9220/shoowtime,Luminosity,1289,32951,-1008,0.96,0.96
+Sweden,Sapec,https://www.hltv.org/stats/players/15569/sapec,EYEBALLERS,1022,26490,-939,0.95,0.96
+Ukraine,fear,https://www.hltv.org/stats/players/17803/fear,Passion UA,539,12590,-145,0.98,0.96
+Russia,X5G7V,https://www.hltv.org/stats/players/19575/x5g7v,Space,669,17228,-322,0.97,0.96
+Lithuania,Kvik,https://www.hltv.org/stats/players/8459/kvik,Quantum Bellator Fire,785,20509,-688,0.95,0.96
+Canada,Walco,https://www.hltv.org/stats/players/17929/walco,RBG,874,22332,-716,0.95,0.96
+Canada,stanislaw,https://www.hltv.org/stats/players/8507/stanislaw,Wildcard,1657,42174,-761,0.97,0.96
+France,LOGAN,https://www.hltv.org/stats/players/13042/logan,LDLC,590,15692,-300,0.97,0.96
+China,expro,https://www.hltv.org/stats/players/12490/expro,Lynn Vision,565,14745,-396,0.96,0.96
+Brazil,danoco,https://www.hltv.org/stats/players/16814/danoco,RED Canids,547,13846,-655,0.93,0.96
+Czech Republic,AJTT,https://www.hltv.org/stats/players/13568/ajtt,SINNERS,473,11910,-240,0.97,0.96
+Russia,SELLTER,https://www.hltv.org/stats/players/18670/sellter,GUN5,797,19875,-382,0.97,0.96
+United States,nosraC,https://www.hltv.org/stats/players/17918/nosrac,Nouns,1014,25566,-715,0.96,0.96
+Poland,ponczek,https://www.hltv.org/stats/players/11286/ponczek,Wisla Krakow,585,15685,-248,0.98,0.96
+Denmark,smF,https://www.hltv.org/stats/players/7414/smf,CPH Wolves,859,22474,-414,0.97,0.96
+Russia,ProbLeM,https://www.hltv.org/stats/players/16870/problem,HellRaisers,648,17533,-430,0.96,0.96
+United States,RZU,https://www.hltv.org/stats/players/13179/rzu,Triumph,531,13713,-601,0.94,0.96
+Russia,chopper,https://www.hltv.org/stats/players/7716/chopper,Spirit,1429,37124,-756,0.97,0.96
+China,0i,https://www.hltv.org/stats/players/11358/0i,New4,493,12891,-447,0.95,0.95
+Argentina,nbl,https://www.hltv.org/stats/players/10508/nbl,Isurus,628,16169,-549,0.95,0.95
+Brazil,YJ,https://www.hltv.org/stats/players/11746/yj,W7M,515,13453,-82,0.99,0.95
+Poland,NEO,https://www.hltv.org/stats/players/165/neo,Virtus.pro,2037,53165,-1558,0.96,0.95
+Serbia,HOLMES,https://www.hltv.org/stats/players/3730/holmes,Squared,474,12379,-443,0.95,0.95
+Sweden,dezon,https://www.hltv.org/stats/players/15639/dezon,Galaxy Racer,555,14946,-248,0.97,0.95
+Kazakhstan,w1nt3r,https://www.hltv.org/stats/players/14359/w1nt3r,100PG,744,19307,-340,0.97,0.95
+Romania,SEMINTE,https://www.hltv.org/stats/players/8453/seminte,Nexus,737,19460,-601,0.95,0.95
+Germany,denis,https://www.hltv.org/stats/players/7511/denis,Sprout,1840,48974,-1863,0.95,0.95
+Norway,Grus,https://www.hltv.org/stats/players/16462/grus,Apeks,648,17580,-834,0.93,0.95
+Denmark,Chr1zN,https://www.hltv.org/stats/players/21983/chr1zn,MOUZ NXT,610,14558,-416,0.96,0.95
+Sweden,dumz,https://www.hltv.org/stats/players/7958/dumz,DenDD,455,12074,-320,0.96,0.95
+United States,brett,https://www.hltv.org/stats/players/14799/brett,FLUFFY AIMERS,683,17039,-837,0.93,0.95
+Bulgaria,oxygeN,https://www.hltv.org/stats/players/18697/oxygen,SKADE,890,23116,-610,0.96,0.95
+Bulgaria,rafftu,https://www.hltv.org/stats/players/16412/rafftu,SKADE,565,15138,-452,0.96,0.95
+Brazil,PKL,https://www.hltv.org/stats/players/6593/pkl,paiN,1392,35921,-913,0.96,0.95
+Sweden,friberg,https://www.hltv.org/stats/players/7148/friberg,Ninjas in Pyjamas,1979,51523,-1750,0.95,0.95
+Germany,tahsiN,https://www.hltv.org/stats/players/2148/tahsin,PENTA,619,16083,-696,0.94,0.95
+Ukraine,byr9,https://www.hltv.org/stats/players/19590/byr9,kONO,702,18328,-438,0.96,0.95
+Denmark,Console,https://www.hltv.org/stats/players/10404/console,Tricked,708,18612,-582,0.95,0.95
+Belgium,Keoz,https://www.hltv.org/stats/players/15117/keoz,Syman,1156,30130,-1290,0.94,0.95
+New Zealand,soju_j,https://www.hltv.org/stats/players/12590/soju-j,Legacy,554,14231,-410,0.96,0.95
+Kazakhstan,KrizzeN,https://www.hltv.org/stats/players/12161/krizzen,AVANGAR,763,20020,-368,0.97,0.95
+Brazil,bnc,https://www.hltv.org/stats/players/13287/bnc,Bounty Hunters,501,12305,-464,0.95,0.95
+United States,Danejoris,https://www.hltv.org/stats/players/15052/danejoris,Third Impact,484,12195,-461,0.95,0.95
+Norway,H4RR3,https://www.hltv.org/stats/players/14311/h4rr3,Nordavind,694,18646,-843,0.94,0.95
+Bulgaria,niki1,https://www.hltv.org/stats/players/8917/niki1,FATE,1351,35585,-1234,0.95,0.95
+Germany,tiziaN,https://www.hltv.org/stats/players/5796/tizian,BIG,2052,53406,-1531,0.96,0.95
+Hungary,flashie,https://www.hltv.org/stats/players/5440/flashie,GameAgents,594,15719,-518,0.95,0.95
+Russia,seized,https://www.hltv.org/stats/players/3347/seized,Natus Vincere,1972,51161,-1578,0.95,0.95
+Brazil,xns,https://www.hltv.org/stats/players/20219/xns,TeamOne,468,12143,-395,0.95,0.95
+Denmark,AcilioN,https://www.hltv.org/stats/players/8151/acilion,Copenhagen Flames,1887,49653,-1729,0.95,0.95
+Denmark,TMB,https://www.hltv.org/stats/players/11995/tmb,Copenhagen Flames,1300,34060,-1332,0.94,0.95
+Brazil,steel,https://www.hltv.org/stats/players/7382/steel,Movistar Riders,1567,40987,-1165,0.96,0.95
+Denmark,Inzta,https://www.hltv.org/stats/players/7463/inzta,Tricked,754,19798,-849,0.94,0.94
+Belgium,Nexius,https://www.hltv.org/stats/players/20872/nexius,OG,465,11567,-634,0.92,0.94
+France,devoduvek,https://www.hltv.org/stats/players/10569/devoduvek,LDLC,748,19727,-778,0.94,0.94
+Brazil,drop,https://www.hltv.org/stats/players/19750/drop,MIBR,571,13988,-323,0.96,0.94
+China,Karsa,https://www.hltv.org/stats/players/8599/karsa,Flash,461,11782,-319,0.96,0.94
+Germany,kzy,https://www.hltv.org/stats/players/3517/kzy,EURONICS,991,25840,-835,0.95,0.94
+Sweden,Fifflaren,https://www.hltv.org/stats/players/7147/fifflaren,Ninjas in Pyjamas,538,13220,-40,0.99,0.94
+Sweden,LNZ,https://www.hltv.org/stats/players/19310/lnz,Sangal,746,18567,-509,0.96,0.94
+United States,SileNt,https://www.hltv.org/stats/players/8752/silent,Swole Patrol,624,16235,-788,0.93,0.94
+Turkey,MAJ3R,https://www.hltv.org/stats/players/150/maj3r,Eternal Fire,1424,36866,-1116,0.95,0.94
+Poland,mASKED,https://www.hltv.org/stats/players/21142/masked,Permitta,704,17196,-542,0.95,0.94
+Finland,Twixie,https://www.hltv.org/stats/players/15180/twixie,KOVA,767,20821,-780,0.94,0.94
+Russia,interz,https://www.hltv.org/stats/players/15071/interz,Cloud9,1067,27856,-142,0.99,0.94
+Bulgaria,Rock1nG,https://www.hltv.org/stats/players/10762/rock1ng,SKADE,923,24313,-1142,0.93,0.94
+Poland,darko,https://www.hltv.org/stats/players/11287/darko,PACT,1045,28038,-1180,0.94,0.94
+Slovakia,The eLiVe,https://www.hltv.org/stats/players/14388/the-elive,Sampi,1194,30620,-1022,0.95,0.94
+Russia,tonyblack,https://www.hltv.org/stats/players/1950/tonyblack,Spirit,826,21699,-725,0.95,0.94
+United States,Shakezullah,https://www.hltv.org/stats/players/14203/shakezullah,Triumph,862,22424,-464,0.97,0.94
+Brazil,caike,https://www.hltv.org/stats/players/10563/caike,g3x,575,15020,-586,0.94,0.94
+Ukraine,arch,https://www.hltv.org/stats/players/8410/arch,Preparation,593,15530,-658,0.94,0.94
+Denmark,Patti,https://www.hltv.org/stats/players/13077/patti,Astralis Talent,615,15538,-639,0.94,0.94
+Denmark,maNkz,https://www.hltv.org/stats/players/15349/mankz,ECSTATIC,1069,28393,-1214,0.94,0.94
+Finland,Aleksib,https://www.hltv.org/stats/players/9816/aleksib,Natus Vincere,1333,34771,-1025,0.95,0.94
+Russia,kinqie,https://www.hltv.org/stats/players/3459/kinqie,RUSH B,755,19613,-998,0.93,0.94
+Belarus,boX,https://www.hltv.org/stats/players/13976/box,Nemiga,1473,39456,-1650,0.94,0.94
+Czech Republic,Valencio,https://www.hltv.org/stats/players/13569/valencio,ECLOT,568,14917,-675,0.93,0.94
+Denmark,LOMME,https://www.hltv.org/stats/players/1889/lomme,North Academy,623,16172,-532,0.95,0.94
+Poland,Prism,https://www.hltv.org/stats/players/18979/prism,UNGENTIUM,567,14692,-716,0.93,0.94
+Belgium,Ex6TenZ,https://www.hltv.org/stats/players/7166/ex6tenz,Titan,1393,36352,-1064,0.96,0.94
+Russia,ub1que,https://www.hltv.org/stats/players/7405/ub1que,EPG,491,12691,-496,0.94,0.94
+Denmark,Snappi,https://www.hltv.org/stats/players/922/snappi,HEROIC,1924,50194,-1898,0.94,0.94
+Poland,TaZ,https://www.hltv.org/stats/players/161/taz,Virtus.pro,2390,62983,-2449,0.94,0.94
+Russia,faydett,https://www.hltv.org/stats/players/20197/faydett,Insilio,502,12232,-509,0.94,0.94
+Australia,Noisia,https://www.hltv.org/stats/players/11492/noisia,AVANT,608,15732,-665,0.94,0.94
+Brazil,yepz,https://www.hltv.org/stats/players/16954/yepz,Case,735,18001,-529,0.95,0.94
+Slovakia,sAvana1,https://www.hltv.org/stats/players/21299/savana1,Sampi,720,17799,-712,0.94,0.94
+Finland,arvid,https://www.hltv.org/stats/players/9325/arvid,SJ,994,26589,-1331,0.93,0.94
+Turkey,ngiN,https://www.hltv.org/stats/players/9857/ngin,Space Soldiers,1025,26895,-748,0.96,0.94
+Bulgaria,Duplicate,https://www.hltv.org/stats/players/16410/duplicate,SKADE,1000,26598,-1124,0.94,0.94
+Taiwan,Marek,https://www.hltv.org/stats/players/8598/marek,EHOME,498,13045,-567,0.94,0.94
+Poland,repo,https://www.hltv.org/stats/players/8320/repo,PRIDE,505,13254,-657,0.93,0.94
+Poland,Sidney,https://www.hltv.org/stats/players/15697/sidney,UNGENTIUM,610,16394,-625,0.94,0.93
+Brazil,Leomonster,https://www.hltv.org/stats/players/17132/leomonster,Meta,618,15651,-1025,0.91,0.93
+Finland,Sm1llee,https://www.hltv.org/stats/players/18643/sm1llee,JANO,487,12715,-647,0.93,0.93
+Brazil,hoax,https://www.hltv.org/stats/players/19991/hoax,Galorys,492,11973,-588,0.93,0.93
+Russia,nafany,https://www.hltv.org/stats/players/16921/nafany,BetBoom,1297,33304,-1780,0.92,0.93
+Norway,Polly,https://www.hltv.org/stats/players/3631/polly,LGB,461,11987,-611,0.93,0.93
+Russia,hutji,https://www.hltv.org/stats/players/8790/hutji,Vega Squadron,453,12010,-664,0.92,0.93
+Germany,crisby,https://www.hltv.org/stats/players/1064/crisby,ALTERNATE aTTaX,1210,31547,-1814,0.92,0.93
+Sweden,ztr,https://www.hltv.org/stats/players/16486/ztr,Young Ninjas,873,22333,-1061,0.93,0.93
+Denmark,kiR,https://www.hltv.org/stats/players/10938/kir,Astralis Talent,869,22766,-1398,0.91,0.93
+Poland,TOAO,https://www.hltv.org/stats/players/11278/toao,AGO,1435,37991,-1759,0.93,0.93
+Argentina,tutehen,https://www.hltv.org/stats/players/10506/tutehen,VELOX,467,12023,-485,0.94,0.93
+North Macedonia,dan1,https://www.hltv.org/stats/players/18788/dan1,BLUEJAYS,540,14182,-705,0.93,0.93
+Poland,EXUS,https://www.hltv.org/stats/players/8549/exus,PRIDE,987,26248,-1438,0.92,0.93
+Russia,RAiLWAY,https://www.hltv.org/stats/players/14161/railway,INDE IRAE,577,15627,-1059,0.91,0.93
+Kazakhstan,neaLaN,https://www.hltv.org/stats/players/11940/nealan,K23,1309,34455,-1786,0.93,0.93
+South Africa,JT,https://www.hltv.org/stats/players/11630/jt,Complexity,1415,36162,-1860,0.92,0.93
+Czech Republic,beastik,https://www.hltv.org/stats/players/11199/beastik,SINNERS,1455,37294,-1893,0.92,0.93
+Poland,matty,https://www.hltv.org/stats/players/8231/matty,EC Brugge,617,16381,-836,0.93,0.93
+Brazil,dok,https://www.hltv.org/stats/players/10828/dok,Liberty,458,11905,-785,0.91,0.93
+Australia,BRACE,https://www.hltv.org/stats/players/12588/brace,VERTEX,686,16946,-912,0.92,0.92
+Belarus,hitMouse,https://www.hltv.org/stats/players/1200/hitmouse,Nemiga,538,14028,-625,0.93,0.92
+Australia,SkulL,https://www.hltv.org/stats/players/14290/skull,Genuine,747,19220,-1386,0.90,0.92
+France,Xp3,https://www.hltv.org/stats/players/1331/xp3,Winterfox,502,13113,-792,0.91,0.92
+Bulgaria,pNshr,https://www.hltv.org/stats/players/1278/pnshr,Windigo,600,15671,-812,0.92,0.92
+Serbia,emi,https://www.hltv.org/stats/players/2476/emi,Partizan,1357,35231,-1954,0.92,0.92
+Spain,arki,https://www.hltv.org/stats/players/356/arki,SAW,889,23396,-1274,0.92,0.92
+Brazil,TACO,https://www.hltv.org/stats/players/9217/taco,SK,1495,38921,-1646,0.93,0.92
+Uzbekistan,SANJI,https://www.hltv.org/stats/players/11716/sanji,Virtus.pro,741,19869,-999,0.92,0.92
+Serbia,aVN,https://www.hltv.org/stats/players/5351/avn,Zero Tenacity,1275,32146,-1560,0.93,0.92
+Ukraine,amster,https://www.hltv.org/stats/players/19617/amster,kONO,700,18089,-861,0.93,0.92
+Ukraine,Zeus,https://www.hltv.org/stats/players/484/zeus,Natus Vincere,1405,37152,-1990,0.92,0.92
+Denmark,MSL,https://www.hltv.org/stats/players/7156/msl,Dignitas,1777,46431,-3455,0.90,0.92
+Poland,Luz,https://www.hltv.org/stats/players/5385/luz,PRIDE,660,17302,-994,0.92,0.92
+Brazil,drg,https://www.hltv.org/stats/players/16645/drg,Sharks,757,19053,-1188,0.91,0.92
+Sweden,quix,https://www.hltv.org/stats/players/3329/quix,Lilmix,1042,27280,-2246,0.89,0.92
+France,Graviti,https://www.hltv.org/stats/players/21969/graviti,3DMAX,456,11160,-773,0.90,0.92
+Kazakhstan,sorrow,https://www.hltv.org/stats/players/19967/sorrow,100PG,470,12741,-891,0.90,0.92
+Brazil,nak,https://www.hltv.org/stats/players/169/nak,Sharks,519,13439,-700,0.92,0.92
+United Kingdom,dobbo,https://www.hltv.org/stats/players/20128/dobbo,Into the Breach,539,14432,-672,0.93,0.92
+Brazil,CutzMeretz,https://www.hltv.org/stats/players/18891/cutzmeretz,Meta,497,12416,-782,0.91,0.92
+Russia,S0tF1k,https://www.hltv.org/stats/players/9081/s0tf1k,Spirit,1428,37604,-2378,0.91,0.91
+Serbia,Dav,https://www.hltv.org/stats/players/4218/dav,Squared,468,12095,-822,0.90,0.91
+Norway,akez,https://www.hltv.org/stats/players/8837/akez,777,572,15395,-1114,0.90,0.91
+Sweden,Ro1f,https://www.hltv.org/stats/players/21012/ro1f,Johnny Speeds,696,17890,-1035,0.91,0.91
+Russia,svyat,https://www.hltv.org/stats/players/12016/svyat,Hard Legion,741,19875,-1095,0.92,0.91
+Mongolia,ncl,https://www.hltv.org/stats/players/9736/ncl,The MongolZ,554,14211,-775,0.92,0.91
+Bulgaria,Patrick,https://www.hltv.org/stats/players/14380/patrick,500,724,19397,-1376,0.90,0.91
+Germany,LEGIJA,https://www.hltv.org/stats/players/3252/legija,BIG,869,22614,-1671,0.90,0.91
+Russia,wayLander,https://www.hltv.org/stats/players/7796/waylander,FlipSid3,794,20857,-1715,0.89,0.91
+Poland,mynio,https://www.hltv.org/stats/players/4829/mynio,9INE,1130,30177,-2275,0.89,0.91
+Finland,xartE,https://www.hltv.org/stats/players/7537/xarte,SJ,1178,30948,-1800,0.91,0.91
+Germany,ArroW,https://www.hltv.org/stats/players/21500/arrow,ALTERNATE aTTaX,458,10785,-629,0.91,0.91
+Brazil,zmb,https://www.hltv.org/stats/players/14010/zmb,Vikings KR,575,14478,-1076,0.89,0.91
+Finland,BONA,https://www.hltv.org/stats/players/10114/bona,SJ,476,12674,-943,0.89,0.91
+Hungary,coolio,https://www.hltv.org/stats/players/14202/coolio,Budapest Five,494,12997,-757,0.91,0.90
+Finland,sAw,https://www.hltv.org/stats/players/7821/saw,HAVU,1273,33817,-2151,0.91,0.90
+Germany,kRYSTAL,https://www.hltv.org/stats/players/7218/krystal,PENTA,1890,49419,-3520,0.89,0.90
+Ukraine,crush,https://www.hltv.org/stats/players/9348/crush,pro100,732,19295,-1476,0.89,0.90
+Denmark,sycrone,https://www.hltv.org/stats/players/9295/sycrone,Sprout,553,14608,-978,0.90,0.90
+Russia,balblna,https://www.hltv.org/stats/players/8294/balblna,Quantum Bellator Fire,614,16094,-1251,0.89,0.90
+Denmark,karrigan,https://www.hltv.org/stats/players/429/karrigan,FaZe,2391,62123,-5019,0.88,0.90
+Bulgaria,nkl,https://www.hltv.org/stats/players/5327/nkl,E-frag.net,642,16554,-1046,0.91,0.90
+Russia,hooch,https://www.hltv.org/stats/players/499/hooch,EPG,897,23538,-1828,0.89,0.90
+United Kingdom,Adam9130,https://www.hltv.org/stats/players/18219/adam9130,Into the Breach,716,19221,-1736,0.87,0.90
+Canada,FNS,https://www.hltv.org/stats/players/6451/fns,CLG,953,25080,-1794,0.89,0.89
+Kosovo,SENER1,https://www.hltv.org/stats/players/15778/sener1,Bad News Eagles,780,20100,-1527,0.89,0.89
+France,JiNKZ,https://www.hltv.org/stats/players/15120/jinkz,3DMAX,542,14411,-1193,0.88,0.89
+Sweden,pronax,https://www.hltv.org/stats/players/41/pronax,fnatic,1199,31403,-2267,0.89,0.89
+Sweden,SHiNE,https://www.hltv.org/stats/players/19065/shine,EYEBALLERS,585,15283,-1180,0.89,0.89
+Sweden,Golden,https://www.hltv.org/stats/players/11110/golden,fnatic,1165,29659,-2688,0.87,0.89
+Ukraine,Psycho,https://www.hltv.org/stats/players/16563/psycho,Project X,545,14391,-1143,0.88,0.89
+Brazil,RICIOLI,https://www.hltv.org/stats/players/18875/ricioli,Case,810,20263,-1588,0.88,0.89
+Denmark,IceBerg,https://www.hltv.org/stats/players/16731/iceberg,Sashi,1090,27262,-3023,0.85,0.89
+United States,ben1337,https://www.hltv.org/stats/players/13250/ben1337,Party Astronauts,1293,32934,-2728,0.88,0.89
+Czech Republic,K1-FiDa,https://www.hltv.org/stats/players/15818/k1-fida,UNiTY,687,17618,-1395,0.88,0.89
+Romania,BTN,https://www.hltv.org/stats/players/1206/btn,Nexus,1695,43929,-4213,0.87,0.88
+United Kingdom,MiGHTYMAX,https://www.hltv.org/stats/players/8983/mightymax,Endpoint,1766,45657,-3640,0.88,0.88
+Germany,FreeZe,https://www.hltv.org/stats/players/20122/freeze,ALTERNATE aTTaX,755,18473,-1867,0.86,0.88
+United States,LeX,https://www.hltv.org/stats/players/8504/lex,Mythic,463,11937,-1263,0.85,0.88
+Denmark,torben,https://www.hltv.org/stats/players/10993/torben,Fragsters,532,13939,-1196,0.87,0.88
+Brazil,ninjaZ,https://www.hltv.org/stats/players/20083/ninjaz,Galorys,516,12669,-1239,0.86,0.88
+France,Lambert,https://www.hltv.org/stats/players/8047/lambert,LDLC,803,21208,-1687,0.88,0.88
+United States,seang@res,https://www.hltv.org/stats/players/1916/seangres,Cloud9,713,18391,-1629,0.87,0.88
+Canada,daps,https://www.hltv.org/stats/players/8521/daps,NRG,1137,29448,-2452,0.87,0.88
+Poland,lunAtic,https://www.hltv.org/stats/players/9798/lunatic,PACT,1371,36322,-3305,0.87,0.88
+Spain,dav1g,https://www.hltv.org/stats/players/19509/dav1g,KOI,592,15135,-1425,0.86,0.87
+Germany,ScrunK,https://www.hltv.org/stats/players/8212/scrunk,ALTERNATE aTTaX,1163,31060,-3360,0.85,0.87
+Denmark,BERRY,https://www.hltv.org/stats/players/921/berry,Ambush,826,21660,-2564,0.84,0.87
+Denmark,birdfromsky,https://www.hltv.org/stats/players/13718/birdfromsky,Lyngby Vikings,1161,31439,-3276,0.85,0.86
+Ukraine,def,https://www.hltv.org/stats/players/9350/def,pro100,605,15797,-1593,0.85,0.86
+Poland,nawrot,https://www.hltv.org/stats/players/15726/nawrot,AVEZ,636,16946,-1935,0.84,0.86
+Sweden,djL,https://www.hltv.org/stats/players/12572/djl,Chaos,688,18180,-1735,0.86,0.86
+China,advent,https://www.hltv.org/stats/players/8600/advent,ViCi,1352,34337,-3247,0.85,0.85
+Finland,Airax,https://www.hltv.org/stats/players/20593/airax,KOVA,510,13024,-1795,0.81,0.85
+Germany,gob b,https://www.hltv.org/stats/players/136/gob-b,BIG,980,25846,-2839,0.84,0.85
+Denmark,HooXi,https://www.hltv.org/stats/players/10096/hooxi,Copenhagen Flames,1075,28027,-3361,0.83,0.85
+Russia,PASHANOJ,https://www.hltv.org/stats/players/13779/pashanoj,Unique,620,16227,-2371,0.80,0.83
+Brazil,bobz,https://www.hltv.org/stats/players/17215/bobz,MIBR Academy,461,12176,-1639,0.81,0.83
+Ukraine,B1ad3,https://www.hltv.org/stats/players/472/b1ad3,FlipSid3,906,23376,-3476,0.80,0.82
+Denmark,netrick,https://www.hltv.org/stats/players/8422/netrick,AGF,455,11976,-1736,0.80,0.82
+Denmark,HUNDEN,https://www.hltv.org/stats/players/7415/hunden,Tricked,1578,41153,-6238,0.78,0.81
