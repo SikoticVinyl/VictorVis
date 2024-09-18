@@ -1,14 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
-import logging
 from typing import Dict, Any, List
 import time
 import random
-
-# Set up logging
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
 
 # Configuration
 INPUT_CSV_FILE_PATH = '../data/player_urls.csv'
@@ -44,40 +39,31 @@ def fetch_page(url: str) -> str:
     # Then visit the actual player page
     response = session.get(url_with_param, headers=headers)
     response.raise_for_status()
-    logger.debug(f"Page fetched successfully. URL: {url_with_param}, Status code: {response.status_code}")
     return response.text
 
 def extract_player_data(html: str) -> Dict[str, Any]:
     soup = BeautifulSoup(html, 'html.parser')
-    player_data = {
+    return {
         'Basic Info': extract_basic_info(soup),
         'Summary Stats': extract_summary_stats(soup),
         'Detailed Stats': extract_detailed_stats(soup),
         'Role Stats': extract_role_stats(soup)
     }
-    logger.debug(f"Extracted player data: {player_data}")
-    return player_data
 
 def extract_basic_info(soup: BeautifulSoup) -> Dict[str, str]:
     basic_info = {}
-    
     player_name = soup.find('h1', class_='summaryNickname')
     if player_name:
         basic_info['Player Name'] = player_name.text.strip()
-
     real_name = soup.find('div', class_='summaryRealname')
     if real_name:
         basic_info['Real Name'] = real_name.text.strip()
-
     team_name = soup.find('div', class_='SummaryTeamname')
     if team_name:
         basic_info['Team Name'] = team_name.text.strip()
-
     player_age = soup.find('div', class_='summaryPlayerAge')
     if player_age:
         basic_info['Age'] = player_age.text.strip()
-
-    logger.debug(f"Extracted basic info: {basic_info}")
     return basic_info
 
 def extract_summary_stats(soup: BeautifulSoup) -> Dict[str, str]:
@@ -87,9 +73,8 @@ def extract_summary_stats(soup: BeautifulSoup) -> Dict[str, str]:
         stat_name = container.find('div', class_='summaryStatBreakdownSubHeader')
         stat_value = container.find('div', class_='summaryStatBreakdownDataValue')
         if stat_name and stat_value:
-            clean_name = stat_name.text.strip().split('\n')[0]  # Take only the first part of the stat name
+            clean_name = stat_name.text.strip().split('\n')[0]
             summary_stats[clean_name] = stat_value.text.strip()
-    logger.debug(f"Extracted summary stats: {summary_stats}")
     return summary_stats
 
 def extract_detailed_stats(soup: BeautifulSoup) -> Dict[str, str]:
@@ -103,7 +88,6 @@ def extract_detailed_stats(soup: BeautifulSoup) -> Dict[str, str]:
                 stat_name = spans[0].text.strip()
                 stat_value = spans[1].text.strip()
                 detailed_stats[stat_name] = stat_value
-    logger.debug(f"Extracted detailed stats: {detailed_stats}")
     return detailed_stats
 
 def extract_role_stats(soup: BeautifulSoup) -> Dict[str, Any]:
@@ -115,7 +99,6 @@ def extract_role_stats(soup: BeautifulSoup) -> Dict[str, Any]:
         if category_div:
             category_score = category_div.find('div', class_='row-stats-section-score')
             score = category_score.text.strip() if category_score else 'N/A'
-            score = f"{score}" if score != 'N/A' else score
             
             substats = {}
             stat_rows = category_div.find_all('div', class_='role-stats-row')
@@ -130,7 +113,6 @@ def extract_role_stats(soup: BeautifulSoup) -> Dict[str, Any]:
                 'Substats': substats
             }
     
-    logger.debug(f"Extracted role stats: {role_stats}")
     return role_stats
 
 def flatten_player_data(player_data: Dict[str, Any]) -> Dict[str, str]:
@@ -147,7 +129,6 @@ def flatten_player_data(player_data: Dict[str, Any]) -> Dict[str, str]:
                     flat_data[f"{category}_{key}"] = str(value)
         else:
             flat_data[category] = str(data)
-    logger.debug(f"Flattened player data: {flat_data}")
     return flat_data
 
 def process_url(url: str) -> Dict[str, str]:
@@ -155,46 +136,50 @@ def process_url(url: str) -> Dict[str, str]:
         html = fetch_page(url)
         player_data = extract_player_data(html)
         flat_data = flatten_player_data(player_data)
-        flat_data['URL'] = url  # Add the URL to the data
+        flat_data['URL'] = url
         player_name = flat_data.get('Basic Info_Player Name', 'Unknown Player')
-        logger.info(f"Data gathered for {player_name} - {len(flat_data)} data points")
+        print(f"Data gathered for {player_name} - {len(flat_data)} data points")
         return flat_data
     except Exception as e:
-        logger.error(f"An error occurred while processing {url}: {e}")
+        print(f"An error occurred while processing {url}: {e}")
         return {}
 
 def main():
     try:
-        # Read URLs from the CSV file
         player_urls = read_urls_from_csv(INPUT_CSV_FILE_PATH)
-        logger.info(f"Loaded {len(player_urls)} URLs from {INPUT_CSV_FILE_PATH}")
+        print(f"Loaded {len(player_urls)} URLs from {INPUT_CSV_FILE_PATH}")
 
         all_player_data = []
+        processed_count = 0
 
-        for url in player_urls:
-            player_data = process_url(url)
-            if player_data:
-                all_player_data.append(player_data)
+        try:
+            for url in player_urls:
+                player_data = process_url(url)
+                if player_data:
+                    all_player_data.append(player_data)
+                processed_count += 1
 
-        if not all_player_data:
-            logger.error("No data was extracted. The CSV file will be empty.")
-            return
-
-        # Get all unique keys from all player data
-        fieldnames = set()
-        for player_data in all_player_data:
-            fieldnames.update(player_data.keys())
-
-        with open(OUTPUT_CSV_FILE_PATH, 'w', newline='', encoding='utf-8') as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-            writer.writeheader()
-            for player_data in all_player_data:
-                writer.writerow(player_data)
+        except KeyboardInterrupt:
+            print("\nScript interrupted by user. Saving progress...")
         
-        logger.info(f"Player data successfully scraped and saved to {OUTPUT_CSV_FILE_PATH}")
-        logger.info(f"Total players processed: {len(all_player_data)}")
+        finally:
+            if all_player_data:
+                fieldnames = set()
+                for player_data in all_player_data:
+                    fieldnames.update(player_data.keys())
+
+                with open(OUTPUT_CSV_FILE_PATH, 'w', newline='', encoding='utf-8') as csvfile:
+                    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+                    writer.writeheader()
+                    for player_data in all_player_data:
+                        writer.writerow(player_data)
+                
+                print(f"Player data successfully scraped and saved to {OUTPUT_CSV_FILE_PATH}")
+            
+            print(f"Total players processed: {processed_count} out of {len(player_urls)}")
+
     except Exception as e:
-        logger.error(f"An error occurred: {e}")
+        print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
     main()
