@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import logging
-from typing import Dict, Any
+from typing import Dict, Any, List
 
 # Set up logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -32,7 +32,8 @@ def extract_player_data(html: str) -> Dict[str, Any]:
     player_data = {
         'Basic Info': extract_basic_info(soup),
         'Summary Stats': extract_summary_stats(soup),
-        'Detailed Stats': extract_detailed_stats(soup)
+        'Detailed Stats': extract_detailed_stats(soup),
+        'Role Stats': extract_role_stats(soup)  # New addition
     }
     logger.debug(f"Extracted player data: {player_data}")
     return player_data
@@ -85,12 +86,46 @@ def extract_detailed_stats(soup: BeautifulSoup) -> Dict[str, str]:
     logger.debug(f"Extracted detailed stats: {detailed_stats}")
     return detailed_stats
 
+# New function to extract role stats
+def extract_role_stats(soup: BeautifulSoup) -> Dict[str, Any]:
+    role_stats = {}
+    role_categories = ['firepower', 'entrying', 'trading', 'opening', 'clutching', 'sniping', 'utility']
+    
+    for category in role_categories:
+        category_div = soup.find('div', class_=f'role-stats-section role-{category}')
+        if category_div:
+            category_score = category_div.find('div', class_='row-stats-section-score')
+            score = category_score.text.strip() if category_score else 'N/A'
+            score = f"{score}" if score != 'N/A' else score
+            
+            substats = {}
+            stat_rows = category_div.find_all('div', class_='role-stats-row')
+            for row in stat_rows:
+                stat_title = row.find('div', class_='role-stats-title')
+                stat_data = row.find('div', class_='role-stats-data')
+                if stat_title and stat_data:
+                    substats[stat_title.text.strip()] = stat_data.text.strip()
+            
+            role_stats[category.capitalize()] = {
+                'Score': score,
+                'Substats': substats
+            }
+    
+    logger.debug(f"Extracted role stats: {role_stats}")
+    return role_stats
+
 def flatten_player_data(player_data: Dict[str, Any]) -> Dict[str, str]:
     flat_data = {}
     for category, data in player_data.items():
         if isinstance(data, dict):
-            for key, value in data.items():
-                flat_data[f"{category}_{key}"] = str(value)
+            if category == 'Role Stats':
+                for role, role_data in data.items():
+                    flat_data[f"{category}_{role}_Score"] = role_data['Score']
+                    for substat, value in role_data['Substats'].items():
+                        flat_data[f"{category}_{role}_{substat}"] = str(value)
+            else:
+                for key, value in data.items():
+                    flat_data[f"{category}_{key}"] = str(value)
         else:
             flat_data[category] = str(data)
     logger.debug(f"Flattened player data: {flat_data}")
