@@ -1,131 +1,185 @@
-import aiohttp
-import asyncio
+import requests
 from bs4 import BeautifulSoup
 import csv
-import json
-import logging
+from typing import Dict, Any, List
+import time
 import random
-from typing import List, Dict, Any, Optional
-from aiohttp import ClientSession
-from tenacity import retry, stop_after_attempt, wait_random
-
-# Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
 
 # Configuration
-CSV_FILE_PATH = 'urls.csv'
-OUTPUT_FILE_PATH = 'player_data.json'
-MAX_CONCURRENT_REQUESTS = 10
-MIN_DELAY = 1
-MAX_DELAY = 3
+INPUT_CSV_FILE_PATH = '../data/player_urls.csv'
+OUTPUT_CSV_FILE_PATH = '../data/deep_player_data.csv'
 
-async def read_urls_from_csv(file_path: str) -> List[str]:
-    urls = []
-    try:
-        with open(file_path, 'r', newline='', encoding='utf-8') as csvfile:
-            csvreader = csv.reader(csvfile)
-            for row in csvreader:
-                if row:  # Ensure the row is not empty
-                    urls.append(row[0].strip())  # Assuming the URL is in the first column
-    except FileNotFoundError:
-        logger.error(f"CSV file not found: {file_path}")
-    except PermissionError:
-        logger.error(f"Permission denied when trying to read: {file_path}")
-    except Exception as e:
-        logger.error(f"An error occurred while reading CSV: {e}")
-    return urls
+def read_urls_from_csv(file_path: str) -> List[str]:
+    with open(file_path, 'r', newline='', encoding='utf-8') as csvfile:
+        reader = csv.reader(csvfile)
+        next(reader)  # Skip the header row
+        return [row[0] for row in reader if row]
 
-@retry(stop=stop_after_attempt(3), wait=wait_random(min=MIN_DELAY, max=MAX_DELAY))
-async def fetch_page(session: ClientSession, url: str) -> Optional[str]:
-    full_url = f"{url}?startDate=all"
+def fetch_page(url: str) -> str:
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.5',
+        'Referer': 'https://www.hltv.org/',
+        'DNT': '1',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1',
+        'Cache-Control': 'max-age=0',
     }
-    try:
-        async with session.get(full_url, headers=headers) as response:
-            if response.status == 200:
-                return await response.text()
-            else:
-                logger.warning(f"Request to {full_url} returned status code {response.status}")
-                return None
-    except aiohttp.ClientError as e:
-        logger.error(f"An error occurred while requesting {full_url}: {e}")
-        return None
+    url_with_param = f"{url}?startDate=all"
+    
+    # Randomize the delay between requests (2 to 5 seconds)
+    time.sleep(random.uniform(2, 5))
+    
+    session = requests.Session()
+    
+    # First, visit the main page to set cookies
+    session.get("https://www.hltv.org/", headers=headers)
+    
+    # Then visit the actual player page
+    response = session.get(url_with_param, headers=headers)
+    response.raise_for_status()
+    return response.text
 
 def extract_player_data(html: str) -> Dict[str, Any]:
     soup = BeautifulSoup(html, 'html.parser')
-    player_stats = {
-        'Player Name': "Unknown",
-        'Team Name': None,
-        'Teammates': [],
-        'Role Stats': {},
-        'General Stats': {}
+    return {
+        'Basic Info': extract_basic_info(soup),
+        'Summary Stats': extract_summary_stats(soup),
+        'Detailed Stats': extract_detailed_stats(soup),
+        'Role Stats': extract_role_stats(soup)
     }
 
-    # Extract player name
+def extract_basic_info(soup: BeautifulSoup) -> Dict[str, str]:
+    basic_info = {}
     player_name = soup.find('h1', class_='summaryNickname')
     if player_name:
-        player_stats['Player Name'] = player_name.text.strip()
-
-    # Extract team name
-    team_name = soup.find('a', class_='SummaryTeamname')
+        basic_info['Player Name'] = player_name.text.strip()
+    real_name = soup.find('div', class_='summaryRealname')
+    if real_name:
+        basic_info['Real Name'] = real_name.text.strip()
+    team_name = soup.find('div', class_='SummaryTeamname')
     if team_name:
-        player_stats['Team Name'] = team_name.text.strip()
+        basic_info['Team Name'] = team_name.text.strip()
+    player_age = soup.find('div', class_='summaryPlayerAge')
+    if player_age:
+        basic_info['Age'] = player_age.text.strip()
+    return basic_info
 
-    # Extract teammates
-    teammates_section = soup.find('div', class_='grid teammates')
-    if teammates_section:
-        teammates = teammates_section.find_all('div', class_='teammate-info')
-        player_stats['Teammates'] = [teammate.find('span').text.strip() for teammate in teammates if teammate.find('span')]
+def extract_summary_stats(soup: BeautifulSoup) -> Dict[str, str]:
+    summary_stats = {}
+    stat_containers = soup.find_all('div', class_='summaryStatBreakdown')
+    for container in stat_containers:
+        stat_name = container.find('div', class_='summaryStatBreakdownSubHeader')
+        stat_value = container.find('div', class_='summaryStatBreakdownDataValue')
+        if stat_name and stat_value:
+            clean_name = stat_name.text.strip().split('\n')[0]
+            summary_stats[clean_name] = stat_value.text.strip()
+    return summary_stats
 
-    # Extract role stats
-    role_stats_sections = soup.find_all('div', class_='role-stats-section')
-    for section in role_stats_sections:
-        section_name = next((cls.replace('role-', '') for cls in section.get('class', []) if cls.startswith('role-')), None)
-        if not section_name:
-            continue
-        player_stats['Role Stats'][section_name] = {}
-        stat_titles = section.find_all('div', class_='role-stats-title')
-        stat_values = section.find_all('div', class_='role-stats-data')
-        for title, value in zip(stat_titles, stat_values):
-            player_stats['Role Stats'][section_name][title.text.strip()] = value.text.strip()
-
-    # Extract general statistics
-    statistics_section = soup.find('div', class_='statistics')
-    if statistics_section:
-        stats_rows = statistics_section.find_all('div', class_='stats-row')
+def extract_detailed_stats(soup: BeautifulSoup) -> Dict[str, str]:
+    detailed_stats = {}
+    stats_container = soup.find('div', class_='statistics')
+    if stats_container:
+        stats_rows = stats_container.find_all('div', class_='stats-row')
         for row in stats_rows:
             spans = row.find_all('span')
-            if len(spans) >= 2:
-                player_stats['General Stats'][spans[0].text.strip()] = spans[1].text.strip()
+            if len(spans) == 2:
+                stat_name = spans[0].text.strip()
+                stat_value = spans[1].text.strip()
+                detailed_stats[stat_name] = stat_value
+    return detailed_stats
 
-    return player_stats
+def extract_role_stats(soup: BeautifulSoup) -> Dict[str, Any]:
+    role_stats = {}
+    role_categories = ['firepower', 'entrying', 'trading', 'opening', 'clutching', 'sniping', 'utility']
+    
+    for category in role_categories:
+        category_div = soup.find('div', class_=f'role-stats-section role-{category}')
+        if category_div:
+            category_score = category_div.find('div', class_='row-stats-section-score')
+            score = category_score.text.strip() if category_score else 'N/A'
+            
+            substats = {}
+            stat_rows = category_div.find_all('div', class_='role-stats-row')
+            for row in stat_rows:
+                stat_title = row.find('div', class_='role-stats-title')
+                stat_data = row.find('div', class_='role-stats-data')
+                if stat_title and stat_data:
+                    substats[stat_title.text.strip()] = stat_data.text.strip()
+            
+            role_stats[category.capitalize()] = {
+                'Score': score,
+                'Substats': substats
+            }
+    
+    return role_stats
 
-async def process_url(session: ClientSession, url: str) -> Optional[Dict[str, Any]]:
-    html = await fetch_page(session, url)
-    if html:
-        return extract_player_data(html)
-    return None
+def flatten_player_data(player_data: Dict[str, Any]) -> Dict[str, str]:
+    flat_data = {}
+    for category, data in player_data.items():
+        if isinstance(data, dict):
+            if category == 'Role Stats':
+                for role, role_data in data.items():
+                    flat_data[f"{category}_{role}_Score"] = role_data['Score']
+                    for substat, value in role_data['Substats'].items():
+                        flat_data[f"{category}_{role}_{substat}"] = str(value)
+            else:
+                for key, value in data.items():
+                    flat_data[f"{category}_{key}"] = str(value)
+        else:
+            flat_data[category] = str(data)
+    return flat_data
 
-async def main():
-    urls = await read_urls_from_csv(CSV_FILE_PATH)
-    all_player_data = []
+def process_url(url: str) -> Dict[str, str]:
+    try:
+        html = fetch_page(url)
+        player_data = extract_player_data(html)
+        flat_data = flatten_player_data(player_data)
+        flat_data['URL'] = url
+        player_name = flat_data.get('Basic Info_Player Name', 'Unknown Player')
+        print(f"Data gathered for {player_name} - {len(flat_data)} data points")
+        return flat_data
+    except Exception as e:
+        print(f"An error occurred while processing {url}: {e}")
+        return {}
 
-    async with aiohttp.ClientSession() as session:
-        tasks = [process_url(session, url) for url in urls]
-        results = await asyncio.gather(*tasks)
+def main():
+    try:
+        player_urls = read_urls_from_csv(INPUT_CSV_FILE_PATH)
+        print(f"Loaded {len(player_urls)} URLs from {INPUT_CSV_FILE_PATH}")
 
-        for result in results:
-            if result:
-                all_player_data.append(result)
-                logger.info(f"Processed player: {result['Player Name']}")
+        all_player_data = []
+        processed_count = 0
 
-    # Save data to JSON file
-    with open(OUTPUT_FILE_PATH, 'w', encoding='utf-8') as f:
-        json.dump(all_player_data, f, ensure_ascii=False, indent=4)
+        try:
+            for url in player_urls:
+                player_data = process_url(url)
+                if player_data:
+                    all_player_data.append(player_data)
+                processed_count += 1
 
-    logger.info(f"Scraping completed. Data saved to {OUTPUT_FILE_PATH}")
+        except KeyboardInterrupt:
+            print("\nScript interrupted by user. Saving progress...")
+        
+        finally:
+            if all_player_data:
+                fieldnames = set()
+                for player_data in all_player_data:
+                    fieldnames.update(player_data.keys())
+
+                with open(OUTPUT_CSV_FILE_PATH, 'w', newline='', encoding='utf-8') as csvfile:
+                    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+                    writer.writeheader()
+                    for player_data in all_player_data:
+                        writer.writerow(player_data)
+                
+                print(f"Player data successfully scraped and saved to {OUTPUT_CSV_FILE_PATH}")
+            
+            print(f"Total players processed: {processed_count} out of {len(player_urls)}")
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
